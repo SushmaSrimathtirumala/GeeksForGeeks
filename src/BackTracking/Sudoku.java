@@ -33,6 +33,7 @@ public class Sudoku {
         for(int val=1; val<=9; val++) {
             if (isSafe(val, grid, unfilled)) {
                 grid[unfilled[0]][unfilled[1]] = val;
+                // Backtracking
                 if(!solveSudoku(grid, unfilled)) {
                     grid[unfilled[0]][unfilled[1]] = 0;
                 } else {
@@ -40,7 +41,7 @@ public class Sudoku {
                 }
             }
         }
-        return false;
+        return false; // Tried everything and failed.
     }
 
     private static boolean isSafe(int val, int[][] grid, int[] unfilled) {
