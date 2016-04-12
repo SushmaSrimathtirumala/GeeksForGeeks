@@ -48,15 +48,12 @@ public class DetectCycleInDirectedGraph {
         }
         return graph;
     }
-
 }
 
 class Graph {
     List<Integer>[] adj;
-
     Graph(int vertexCount) {
         adj = new LinkedList[vertexCount + 1];
-
         for (int i = 1; i <= vertexCount; i++) {
             adj[i] = new LinkedList<>();
         }
