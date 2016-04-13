@@ -9,8 +9,8 @@ import java.util.Scanner;
  */
 public class DetectCycleInDirectedGraph {
 
-    static boolean[] visited; // visited is used to prevent running into nodes that are already visited
-    static boolean[] hasCycle; // hasCycle is used to nodes that are hasCycle and they are set to false if all the nodes
+    static boolean[] visited; // visited - used to prevent running into nodes that are already visited
+    static boolean[] hasCycle; // hasCycle - used to nodes that are hasCycle and they are set to false if all the nodes
     // going away from this are check for hasCycle and is clear without cycle
     static Graph g;
 
@@ -20,7 +20,7 @@ public class DetectCycleInDirectedGraph {
         int edgeCount = scn.nextInt();
         visited = new boolean[vertexCount+1];
         hasCycle = new boolean[vertexCount+1];
-
+        
         g = readGraph(scn, vertexCount, edgeCount);
         for (int i = 1; i <= vertexCount; i++) {
             if (!visited[i] && checkCycle(i))
