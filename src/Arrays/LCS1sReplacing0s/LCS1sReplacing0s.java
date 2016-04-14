@@ -1,4 +1,4 @@
-package LCS1sReplacing0s;
+package Arrays.LCS1sReplacing0s;
 
 import java.util.Arrays;
 

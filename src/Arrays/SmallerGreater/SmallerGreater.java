@@ -1,4 +1,4 @@
-package SmallerGreater;
+package Arrays.SmallerGreater;
 
 /**
  * Created by gakshintala on 4/14/16.
