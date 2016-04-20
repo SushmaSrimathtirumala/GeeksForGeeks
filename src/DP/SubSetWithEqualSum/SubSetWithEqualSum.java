@@ -26,10 +26,10 @@ public class SubSetWithEqualSum {
             }
         }
 
-        return searchMiniff(table, sum, len);
+        return searchMinDiff(table, sum, len);
     }
 
-    private static int searchMiniff(boolean[][] table, int sum, int len) {
+    private static int searchMinDiff(boolean[][] table, int sum, int len) {
         int j = len;
         for (int i = sum / 2; i >= 0; i--) {
             if (table[i][j] == true) {
