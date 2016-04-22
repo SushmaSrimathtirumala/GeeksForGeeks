@@ -1,7 +1,7 @@
 package Graphs;
 
-import java.util.LinkedList;
-import java.util.List;
+import DS.DiGraph;
+
 import java.util.Scanner;
 
 /**
@@ -12,7 +12,7 @@ public class DetectCycleInDirectedGraph {
     static boolean[] visited; // visited - used to prevent running into nodes that are already visited
     static boolean[] hasCycle; // hasCycle - used to nodes that are hasCycle and they are set to false if all the nodes
     // going away from this are check for hasCycle and is clear without cycle
-    static Graph g;
+    static DiGraph g;
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -20,11 +20,16 @@ public class DetectCycleInDirectedGraph {
         int edgeCount = scn.nextInt();
         visited = new boolean[vertexCount+1];
         hasCycle = new boolean[vertexCount+1];
-        
+
         g = readGraph(scn, vertexCount, edgeCount);
+        
+        // Let us say first vertex with value '1' is on border, it won't start a cycle. So need to check paths starting 
+        // from all vertices to see which one of them can cause a cycle.
         for (int i = 1; i <= vertexCount; i++) {
-            if (!visited[i] && checkCycle(i))
+            if (!visited[i] && checkCycle(i)) {
                 System.out.println("Cycle Detected!!!");
+                return;
+            }
         }
         System.out.println("No Cycle");
     }
@@ -33,6 +38,7 @@ public class DetectCycleInDirectedGraph {
         visited[i] = true;
         hasCycle[i] = true; // We are starting to check for hasCycle
         for (int neighbour : g.getAllOutgoingVertices(i)) {
+            // If not visited, then send that node for checkCycle. If it passes, return true;
             if (!visited[neighbour] && checkCycle(neighbour)) return true;
             // If above check is skipped due to visited, we still have record of hasCycle and we shall check as below.
             if (hasCycle[neighbour]) return true;
@@ -41,31 +47,12 @@ public class DetectCycleInDirectedGraph {
         return false; // No cycle here
     }
 
-    private static Graph readGraph(Scanner scn, int vertexCount, int edgeCount) {
-        Graph graph = new Graph(vertexCount);
+    private static DiGraph readGraph(Scanner scn, int vertexCount, int edgeCount) {
+        DiGraph graph = new DiGraph(vertexCount);
         for (int i = 0; i < edgeCount; i++) {
             graph.addEdge(scn.nextInt(), scn.nextInt());
         }
         return graph;
     }
 }
-
-class Graph {
-    List<Integer>[] adj;
-    Graph(int vertexCount) {
-        adj = new LinkedList[vertexCount + 1];
-        for (int i = 1; i <= vertexCount; i++) {
-            adj[i] = new LinkedList<>();
-        }
-    }
-
-    public void addEdge(int a, int b) {
-        adj[a].add(b);
-    }
-
-    public Iterable<Integer> getAllOutgoingVertices(int vertex) {
-        return adj[vertex];
-    }
-}
-
 
