@@ -9,9 +9,17 @@ public class TreeNode {
         this.left=left;
         this.right=right;
     }
+
+    public TreeNode(int data, TreeNode left, TreeNode right, int level){
+        this(data,left,right);
+        this.level = level;
+    }
+    
     public int data;
     public TreeNode left;
     public TreeNode right;
+    
+    public int level;
 
     @Override
     public String toString() {
