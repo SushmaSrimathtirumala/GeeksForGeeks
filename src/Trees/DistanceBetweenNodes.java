@@ -8,6 +8,7 @@ import DS.TreeNode;
 public class DistanceBetweenNodes {
 
     public static void main(String[] args) {
+        // Embedding levels of nodes in the DS itself
         TreeNode t1, t2, t3, t4, t5, t6, t7, t8;
         t8 = new TreeNode(8, null, null, 3);
         t7 = new TreeNode(7, null, null, 2);
@@ -30,6 +31,7 @@ public class DistanceBetweenNodes {
         TreeNode y = distanceBetweenNodes(root.right, p, q);
         if (y != null && y != p && y != q) return y; // Which means it originated from * Found Ancestor *
 
+        // This is where both the nodes bubble-up meet at their LCA. 
         if (x != null && y != null) {
             System.out.println(x.level + y.level - 2 * root.level);
             return root; // * Found Ancestor * 
