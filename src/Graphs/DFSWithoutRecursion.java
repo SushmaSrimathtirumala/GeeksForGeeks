@@ -1,6 +1,6 @@
 package Graphs;
 
-import DS.DiGraph;
+import DsAndUtils.DiGraph;
 
 import java.util.Scanner;
 import java.util.Stack;

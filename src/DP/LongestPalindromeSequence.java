@@ -12,7 +12,7 @@ public class LongestPalindromeSequence {
     private static int longestPalindromeSequence(char[] seq) {
         int n = seq.length;
         int[][] table = new int[n][n];
-        // Fill the diagnol in the matrix, only upper half shall be used.
+        // Fill the diagonal in the matrix, only upper half shall be used.
         for (int i = 0; i < n; i++) {
             table[i][i] = 1;
         }

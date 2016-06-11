@@ -1,4 +1,4 @@
-package DS;
+package DsAndUtils;
 
 /**
  * Created by gakshintala on 4/22/16.

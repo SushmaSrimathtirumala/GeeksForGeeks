@@ -1,4 +1,4 @@
-package DS;
+package DsAndUtils;
 
 import java.util.LinkedList;
 import java.util.List;

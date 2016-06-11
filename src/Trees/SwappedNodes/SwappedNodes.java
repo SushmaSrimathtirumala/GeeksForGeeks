@@ -1,6 +1,6 @@
 package Trees.SwappedNodes;
 
-import DS.TreeNode;
+import DsAndUtils.TreeNode;
 
 /**
  * Created by gakshintala on 4/13/16.
@@ -43,7 +43,7 @@ public class SwappedNodes {
         correctSwappedNodes(root.left, refs[0], refs); // Before node of left most node in left tree is null
         
         if(parent!=null && root.data < parent.data) {
-            if(refs[0]==null) { // ref[1] is if adjectecent nodes are swapped, in that case we wont find another anamoly
+            if(refs[0]==null) { // ref[1] is if adjacent nodes are swapped, in that case we wont find another anomaly
                 refs[0] = root;
                 refs[1] = parent;
             } else {

@@ -16,7 +16,7 @@ public class MinJumpsToEnd {
         int len = arr.length;
         int[] table = new int[len];
         table[0] = 0;
-        
+
         for (int i = 1; i < len; i++) {
             table[i] = Integer.MAX_VALUE;
         }
@@ -41,7 +41,7 @@ public class MinJumpsToEnd {
 
         int[] table = new int[len];
         table[0] = 0;
-        
+
         // For every position, check from start left-to-right and set value based on the first encountered reachable
         for (int i = 1; i < len; i++) {
             table[i] = Integer.MAX_VALUE;

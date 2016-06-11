@@ -1,6 +1,6 @@
 package Trees;
 
-import DS.TreeNode;
+import DsAndUtils.TreeNode;
 
 import java.util.Stack;
 
@@ -27,18 +27,18 @@ public class SpiralLeveOrderTraversal {
 
         s1.add(root);
         System.out.println(root);
-        while(!s1.isEmpty() || !s2.isEmpty()) {
-            while(!s1.isEmpty()) {
+        while (!s1.isEmpty() || !s2.isEmpty()) {
+            while (!s1.isEmpty()) {
                 TreeNode node = s1.pop();
-                if(node.left!=null) s2.push(node.left);
-                if(node.right!=null)s2.push(node.right);
+                if (node.left != null) s2.push(node.left);
+                if (node.right != null) s2.push(node.right);
             }
             System.out.println(s2);
 
-            while(!s2.isEmpty()) {
+            while (!s2.isEmpty()) {
                 TreeNode node = s2.pop();
-                if(node.right!=null) s1.push(node.right);
-                if(node.left!=null) s1.push(node.left);
+                if (node.right != null) s1.push(node.right);
+                if (node.left != null) s1.push(node.left);
             }
             System.out.println(s1);
         }

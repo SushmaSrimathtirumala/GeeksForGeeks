@@ -21,7 +21,8 @@ public class SubSetWithEqualSum {
             for (int j = 1; j <= len; j++) {
                 table[i][j] = table[i][j - 1];
                 if (set[j - 1] <= i) {
-                    table[i][j] = table[i][j] || table[i - set[j - 1]][j];
+                    // Excluding or including
+                    table[i][j] |= table[i - set[j - 1]][j];
                 }
             }
         }

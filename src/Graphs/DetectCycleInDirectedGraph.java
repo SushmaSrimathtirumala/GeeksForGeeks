@@ -1,6 +1,6 @@
 package Graphs;
 
-import DS.DiGraph;
+import DsAndUtils.DiGraph;
 
 import java.util.Scanner;
 
@@ -38,7 +38,7 @@ public class DetectCycleInDirectedGraph {
         visited[i] = true;
         hasCycle[i] = true; // We are starting to check for hasCycle
         for (int neighbour : g.getAllOutgoingVertices(i)) {
-            // If not visited, then send that node for checkCycle. If it passes, return true;
+            // If not visited, then send that node for checkCycle. If it passes to have cycle, return true;
             if (!visited[neighbour] && checkCycle(neighbour)) return true;
             // If above check is skipped due to visited, we still have record of hasCycle and we shall check as below.
             if (hasCycle[neighbour]) return true;
