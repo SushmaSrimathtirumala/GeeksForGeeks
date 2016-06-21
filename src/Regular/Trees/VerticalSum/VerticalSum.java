@@ -1,12 +1,12 @@
 package Regular.Trees.VerticalSum;
 
-import Regular.DsAndUtils.DLLNode;
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.DLLNode;
+import DsAndUtils.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static Regular.DsAndUtils.Utils.printDLL;
+import static DsAndUtils.Utils.printDLL;
 
 /**
  * Created by gakshintala on 6/11/16.
@@ -27,39 +27,39 @@ public class VerticalSum {
 
         DLLNode dll = new DLLNode(0);
         verticalSumSpaceOptimized(root, dll);
-        while(dll.prev!=null) dll=dll.prev;
+        while (dll.prev != null) dll = dll.prev;
         printDLL(dll);
     }
 
     private static void verticalSum(TreeNode root, Map<Integer, Integer> map, int hd) {
-        int prevSum = map.get(hd) == null ? 0 : map.get(hd);
-        map.put(hd, prevSum + root.val);
-        
-        if (root.left == null && root.right == null) {
+        if (root == null) {
             return;
         }
+        int prevSum = map.get(hd) == null ? 0 : map.get(hd);
+        map.put(hd, prevSum + root.val);
+
         // Decrease horizontal distance as we move left and increase as we move right
         verticalSum(root.left, map, hd - 1);
         verticalSum(root.right, map, hd + 1);
     }
 
     private static void verticalSumSpaceOptimized(TreeNode root, DLLNode dll) {
-        dll.val += root.val;
-
-        if (root.left == null && root.right == null) {
+        if (root == null) {
             return;
         }
-        
+
+        dll.val += root.val;
+
         if (root.left != null && dll.prev == null) {
             dll.prev = new DLLNode(0);
             dll.prev.next = dll;
         }
-        
+
         if (root.right != null && dll.next == null) {
             dll.next = new DLLNode(0);
             dll.next.prev = dll;
         }
-        
+
         // Put the sum in next node if moving right or put in prev if moving left
         verticalSumSpaceOptimized(root.left, dll.prev);
         verticalSumSpaceOptimized(root.right, dll.next);

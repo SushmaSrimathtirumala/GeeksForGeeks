@@ -1,6 +1,6 @@
 package Regular.Trees.TreeDiameter;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 /**
  * Created by gakshintala on 6/10/16.
@@ -30,7 +30,7 @@ public class TreeDiameter {
         rightHeight.height++;
         int leftDiameter = diameter(root.left, leftHeight);
         int rightDiameter = diameter(root.right, rightHeight);
-        
+
         // Height builds-up, bottom-up. This can be the leftHeight or rightHeight passed from parent recursive call
         height.height = Math.max(leftHeight.height, rightHeight.height) + 1;
 

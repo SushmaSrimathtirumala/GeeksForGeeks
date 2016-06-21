@@ -1,9 +1,9 @@
-package Regular.DsAndUtils;
+package DsAndUtils;
 
 /**
  * Created by gakshintala on 4/22/16.
  */
-public class DLLNode extends SLLNode{
+public class DLLNode extends SLLNode {
     public DLLNode next;
     public DLLNode prev;
 

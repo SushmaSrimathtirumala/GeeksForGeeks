@@ -14,24 +14,24 @@ public class SubsetMinDiff {
     private static int minDiff(int[] arr) {
         int sum = Arrays.stream(arr).sum();
         int len = arr.length;
-        boolean[][] table = new boolean[sum+1][len+1];
-        
-        for(int i=0;i<=len;i++) {
+        boolean[][] table = new boolean[sum + 1][len + 1];
+
+        for (int i = 0; i <= len; i++) {
             table[0][i] = true;
         }
-        
-        for(int i=1;i<=sum;i++) {
-            for(int j=1;j<=len;j++) {
-                table[i][j] = table[i][j-1];
-                if(arr[j-1] <= i) {
-                    table[i][j] |= table[i - arr[j-1]][j];
+
+        for (int i = 1; i <= sum; i++) {
+            for (int j = 1; j <= len; j++) {
+                table[i][j] = table[i][j - 1];
+                if (arr[j - 1] <= i) {
+                    table[i][j] |= table[i - arr[j - 1]][j];
                 }
             }
         }
-        
-        for(int i=sum/2;i<=sum;i++) {
-            if(table[i][len]) {
-                return sum - 2*i;
+
+        for (int i = sum / 2; i <= sum; i++) {
+            if (table[i][len]) {
+                return sum - 2 * i;
             }
         }
         return -1;

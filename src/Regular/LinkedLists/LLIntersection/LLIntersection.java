@@ -1,8 +1,8 @@
 package Regular.LinkedLists.LLIntersection;
 
-import Regular.DsAndUtils.SLLNode;
+import DsAndUtils.SLLNode;
 
-import static Regular.DsAndUtils.Utils.findLLLength;
+import static DsAndUtils.Utils.findLLLength;
 
 /**
  * Created by gakshintala on 6/10/16.

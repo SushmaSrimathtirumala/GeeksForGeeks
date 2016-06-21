@@ -1,6 +1,6 @@
 package Regular.Trees;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 /**
  * Created by gakshintala on 4/22/16.

@@ -1,4 +1,4 @@
-package Regular.DsAndUtils;
+package DsAndUtils;
 
 /**
  * Created by gakshintala on 3/22/16.
@@ -10,17 +10,17 @@ public class TreeNode {
 
     public int level;
 
-    public TreeNode(int val, TreeNode left, TreeNode right){
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
-        this.left=left;
-        this.right=right;
+        this.left = left;
+        this.right = right;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right, int level){
-        this(val,left,right);
+    public TreeNode(int val, TreeNode left, TreeNode right, int level) {
+        this(val, left, right);
         this.level = level;
     }
-    
+
     public TreeNode(int val) {
         this.val = val;
     }

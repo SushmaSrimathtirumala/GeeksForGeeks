@@ -1,13 +1,13 @@
 package Regular.Graphs;
 
-import Regular.DsAndUtils.DiGraph;
+import DsAndUtils.DiGraph;
 
 import java.util.Scanner;
 
 /**
  * Created by gakshintala on 3/28/16.
- * 
- * This can only calculate the lenght of first encountered Cycle. 
+ * <p>
+ * This can only calculate the lenght of first encountered Cycle.
  */
 public class CountCycleLength {
 

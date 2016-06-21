@@ -1,6 +1,6 @@
 package Regular.Graphs;
 
-import Regular.DsAndUtils.DiGraph;
+import DsAndUtils.DiGraph;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -13,11 +13,11 @@ public class DFSWithoutRecursion {
         Scanner scn = new Scanner(System.in);
         int vertexCount = scn.nextInt();
         int edgeCount = scn.nextInt();
-        
+
         DiGraph g = readGraph(scn, vertexCount, edgeCount);
         System.out.println("Normal DFS: ");
         dfsWithoutRecursion(g);
-        
+
         System.out.println();
         boolean[] visited = new boolean[vertexCount + 1];
         System.out.println("Regular.BackTracking DFS: ");
@@ -27,10 +27,10 @@ public class DFSWithoutRecursion {
     private static void dfsBackTracking(DiGraph g, int vertex, boolean[] visited) {
         int vertexCount = g.getVertexCount();
         visited[vertex] = true;
-        System.out.print(vertex+" ");
-        for(int neighbour: g.getAllOutgoingVertices(vertex)) {
-            if(!visited[neighbour]) {
-                dfsBackTracking(g,neighbour,visited);
+        System.out.print(vertex + " ");
+        for (int neighbour : g.getAllOutgoingVertices(vertex)) {
+            if (!visited[neighbour]) {
+                dfsBackTracking(g, neighbour, visited);
             }
         }
         visited[vertex] = false;
@@ -41,19 +41,18 @@ public class DFSWithoutRecursion {
         int vertexCount = g.getVertexCount();
         boolean[] visited = new boolean[vertexCount + 1];
         stk.add(1);
-        while(!stk.isEmpty()) {
+        while (!stk.isEmpty()) {
             int vertex = stk.pop();
             visited[vertex] = true;
-            System.out.print(vertex+" ");
-            for(int neighbour: g.getAllOutgoingVertices(vertex)) {
-                if(!visited[neighbour]) {
+            System.out.print(vertex + " ");
+            for (int neighbour : g.getAllOutgoingVertices(vertex)) {
+                if (!visited[neighbour]) {
                     stk.add(neighbour);
                 }
             }
         }
     }
-    
-    
+
 
     private static DiGraph readGraph(Scanner scn, int vertexCount, int edgeCount) {
         DiGraph DiGraph = new DiGraph(vertexCount);

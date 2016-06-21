@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class HamiltonianCycle {
     public static void main(String[] args) {
-        
+
         // Graph is represented as Adjacency Matrix
         int graph1[][] = {{0, 1, 0, 1, 0},
                 {1, 0, 1, 1, 1},
@@ -28,10 +28,10 @@ public class HamiltonianCycle {
 
     private static void hamCycle(int[][] graph) {
         // Start Vertex is 0
-        int[] path = {0,-1,-1,-1,-1};
-        
+        int[] path = {0, -1, -1, -1, -1};
+
         // Checking for next pos 1
-        if(hasHamCycle(graph, path, 1)) {
+        if (hasHamCycle(graph, path, 1)) {
             System.out.println(Arrays.toString(path));
         } else {
             System.out.println("No Hamilton Exists");
@@ -39,17 +39,17 @@ public class HamiltonianCycle {
     }
 
     private static boolean hasHamCycle(int[][] graph, int[] path, int nextPos) {
-        if(nextPos==5) { // Crossed last vertex, Check if last vertex is connected to first
-            return graph[path[nextPos-1]][0] == 1;
+        if (nextPos == 5) { // Crossed last vertex, Check if last vertex is connected to first
+            return graph[path[nextPos - 1]][0] == 1;
         }
-        
+
         // Looping through all the neighbours of current vertex path[nextPos-1]
-        for(int i=1; i<5;i++) {
+        for (int i = 1; i < 5; i++) {
             // Checking if neighbour is safe to be added to the path
-            if(isSafe(graph, path, nextPos-1, i)) {
+            if (isSafe(graph, path, nextPos - 1, i)) {
                 // If safe, add neighbour to path
                 path[nextPos] = i;
-                if(hasHamCycle(graph,path,nextPos+1)) {
+                if (hasHamCycle(graph, path, nextPos + 1)) {
                     return true;
                 }
                 // Backtrack if no HamCycle
@@ -61,17 +61,17 @@ public class HamiltonianCycle {
 
     private static boolean isSafe(int[][] graph, int[] path, int pos, int neighbour) {
         // If neighbour not connected to current vertex
-        if(graph[path[pos]][neighbour]==0) {
+        if (graph[path[pos]][neighbour] == 0) {
             return false;
         }
-        
+
         // If the neighbour is already present in the path
-        for(int p: path) {
-            if(p==neighbour) {
+        for (int p : path) {
+            if (p == neighbour) {
                 return false;
             }
         }
-        
+
         return true;
     }
 }

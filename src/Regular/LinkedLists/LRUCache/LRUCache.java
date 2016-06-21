@@ -1,7 +1,7 @@
 package Regular.LinkedLists.LRUCache;
 
-import Regular.DsAndUtils.DLLNode;
-import Regular.DsAndUtils.Utils;
+import DsAndUtils.DLLNode;
+import DsAndUtils.Utils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -50,8 +50,8 @@ public class LRUCache {
 
 class LRUQueue {
     private static final int SIZE = 5;
-    private int count = 0;
     DLLNode front, rear;
+    private int count = 0;
     private Map<Integer, DLLNode> pageToNodeMap = new HashMap<>();
 
     public void enqueue(int pageNo, DLLNode node) {

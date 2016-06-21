@@ -1,6 +1,6 @@
 package Regular.Trees;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 import java.util.Stack;
 

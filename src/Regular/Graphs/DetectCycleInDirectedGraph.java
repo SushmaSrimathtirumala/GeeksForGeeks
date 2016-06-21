@@ -1,6 +1,6 @@
 package Regular.Graphs;
 
-import Regular.DsAndUtils.DiGraph;
+import DsAndUtils.DiGraph;
 
 import java.util.Scanner;
 
@@ -18,11 +18,11 @@ public class DetectCycleInDirectedGraph {
         Scanner scn = new Scanner(System.in);
         int vertexCount = scn.nextInt();
         int edgeCount = scn.nextInt();
-        visited = new boolean[vertexCount+1];
-        hasCycle = new boolean[vertexCount+1];
+        visited = new boolean[vertexCount + 1];
+        hasCycle = new boolean[vertexCount + 1];
 
         g = readGraph(scn, vertexCount, edgeCount);
-        
+
         // Let us say first vertex with value '1' is on border, it won't start a cycle. So need to check paths starting 
         // from all vertices to see which one of them can cause a cycle.
         for (int i = 1; i <= vertexCount; i++) {

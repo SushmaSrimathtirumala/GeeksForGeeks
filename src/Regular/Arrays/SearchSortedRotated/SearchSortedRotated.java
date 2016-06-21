@@ -11,14 +11,14 @@ public class SearchSortedRotated {
     }
 
     private static int search(int[] arr, int key, int left, int right) {
-        int mid = (left+right)/2;
-        if(arr[mid] == key) {
+        int mid = (left + right) / 2;
+        if (arr[mid] == key) {
             return mid;
         }
-        
-        if(key > arr[left] && key < arr[mid])
-            return search(arr, key, left, mid-1);
-        
-        return search(arr, key, mid+1, right);
+
+        if (key > arr[left] && key < arr[mid])
+            return search(arr, key, left, mid - 1);
+
+        return search(arr, key, mid + 1, right);
     }
 }

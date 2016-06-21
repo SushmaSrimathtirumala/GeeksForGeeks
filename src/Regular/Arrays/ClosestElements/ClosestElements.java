@@ -31,11 +31,11 @@ public class ClosestElements {
             if (diff == 0) {
                 break;
             }
-            
+
             // Incrementing the list with min number to decrease the diff
-            if(minOf3 == a[i]) i++;
-            if(minOf3 == b[j]) j++;
-            if(minOf3 == c[k]) k++;
+            if (minOf3 == a[i]) i++;
+            if (minOf3 == b[j]) j++;
+            if (minOf3 == c[k]) k++;
         }
         System.out.println(aResult + " " + bResult + " " + cResult);
     }

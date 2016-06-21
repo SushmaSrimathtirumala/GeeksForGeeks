@@ -36,12 +36,18 @@ public class SubsetMaxSum {
         return range;
     }*/
 
+    /**
+     * Kadane Algorithm.
+     *
+     * @param arr
+     * @return
+     */
     private static Subarray findMaximumSubarrayContiguous(List<Integer> arr) {
         Subarray subarray = new Subarray(0, 0, 0);
         int sum = 0, startIndex = 0, maxSum = 0;
         for (int i = 0; i < arr.size(); i++) {
             sum += arr.get(i);
-            if (sum < 0) { // Nullifying the Negative portion of sum by making it 0
+            if (sum < 0) { // Nullifying the Negative portion of sum by making it 0, and starting a fresh subarray
                 sum = 0;
                 startIndex = i + 1;
             } else if (sum > maxSum) {
@@ -55,7 +61,7 @@ public class SubsetMaxSum {
 
     private static int findMaximumSubarrayNonContiguous(List<Integer> arr) {
         int sum = arr.stream().filter(e -> e > 0).mapToInt(e -> e).sum();
-        return (sum!=0)? sum: arr.stream().mapToInt(e->e).max().getAsInt();
+        return (sum != 0) ? sum : arr.stream().mapToInt(e -> e).max().getAsInt();
     }
 
     private static int getMaxInArray(List<Integer> arr) {
@@ -64,7 +70,6 @@ public class SubsetMaxSum {
             int val = arr.get(i);
             if (val > max) max = val;
         }
-
         return max;
     }
 }

@@ -1,7 +1,7 @@
 package Regular.LinkedLists.MergeAlternatively;
 
-import Regular.DsAndUtils.SLLNode;
-import Regular.DsAndUtils.Utils;
+import DsAndUtils.SLLNode;
+import DsAndUtils.Utils;
 
 /**
  * Created by gakshintala on 6/12/16.
@@ -30,7 +30,7 @@ public class MergeAlternatively {
             // Save next pointers
             kNext = k.next;
             lNext = l.next;
-            
+
             // link alternatively
             k.next = l;
             l.next = kNext;

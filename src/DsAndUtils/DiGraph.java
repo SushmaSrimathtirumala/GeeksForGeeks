@@ -1,4 +1,4 @@
-package Regular.DsAndUtils;
+package DsAndUtils;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class DiGraph {
     private List<Integer>[] adj;
 
     public DiGraph(int vertexCount) {
-        this.vertexCount=vertexCount;
+        this.vertexCount = vertexCount;
         adj = new LinkedList[vertexCount + 1];
         for (int i = 1; i <= vertexCount; i++) {
             adj[i] = new LinkedList<>();
@@ -21,7 +21,7 @@ public class DiGraph {
     public int getVertexCount() {
         return this.vertexCount;
     }
-    
+
     public void addEdge(int a, int b) {
         adj[a].add(b);
     }

@@ -1,8 +1,8 @@
 package Regular.Trees.MirrorTree;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
-import static Regular.DsAndUtils.Utils.printTreeInorder;
+import static DsAndUtils.Utils.printTreeInorder;
 
 /**
  * Created by gakshintala on 6/10/16.
@@ -18,16 +18,16 @@ public class MirrorTree {
         t3 = new TreeNode(3, t6, t7);
         t2 = new TreeNode(2, t4, t5);
         t1 = new TreeNode(1, t2, t3);
-        
+
         printTreeInorder(t1);
         mirrorTree(t1);
 
         System.out.println();
         printTreeInorder(t1);
     }
-    
+
     private static void mirrorTree(TreeNode root) {
-        if(root==null) return;
+        if (root == null) return;
         // Go as deep as possible, both on left and right side before swapping for the first time
         mirrorTree(root.left);
         mirrorTree(root.right);

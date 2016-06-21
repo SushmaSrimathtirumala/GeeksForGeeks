@@ -24,3 +24,4 @@ Input: board[] =  {'O', 'X', ' ',
                    ' ', ' ', ' '};
 Output: Valid
 (Valid board with only two moves played)
+

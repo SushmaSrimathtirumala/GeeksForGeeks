@@ -1,6 +1,6 @@
 package Regular.Trees.SwappedNodes;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 /**
  * Created by gakshintala on 4/13/16.
@@ -14,21 +14,20 @@ public class SwappedNodes {
         TreeNode bstNode3 = new TreeNode(6, bstNode6, bstNode7);
         TreeNode bstNode2 = new TreeNode(3, bstNode4, bstNode5);
         TreeNode bstNode1 = new TreeNode(4, bstNode2, bstNode3);
-        
+
         printInorder(bstNode1);
         System.out.println();
-        
-        
+
+
         TreeNode[] refs = correctSwappedNodes(bstNode1, null, new TreeNode[3]);
-        
-        if(refs[0]==null && refs[1]==null && refs[2]==null) {
+
+        if (refs[0] == null && refs[1] == null && refs[2] == null) {
             System.out.println("Tree doesn't contain any swapped Nodes");
-        }
-        else if(refs[2]==null)
-            swap(refs[0],refs[1]);
-        else 
-            swap(refs[0],refs[2]);
-        
+        } else if (refs[2] == null)
+            swap(refs[0], refs[1]);
+        else
+            swap(refs[0], refs[2]);
+
         printInorder(bstNode1);
     }
 
@@ -39,11 +38,11 @@ public class SwappedNodes {
     }
 
     private static TreeNode[] correctSwappedNodes(TreeNode root, TreeNode parent, TreeNode[] refs) {
-        if(root==null) return refs;
+        if (root == null) return refs;
         correctSwappedNodes(root.left, refs[0], refs); // Before node of left most node in left tree is null
-        
-        if(parent!=null && root.val < parent.val) {
-            if(refs[0]==null) { // ref[1] is if adjacent nodes are swapped, in that case we wont find another anomaly
+
+        if (parent != null && root.val < parent.val) {
+            if (refs[0] == null) { // ref[1] is if adjacent nodes are swapped, in that case we wont find another anomaly
                 refs[0] = root;
                 refs[1] = parent;
             } else {
@@ -56,7 +55,7 @@ public class SwappedNodes {
     }
 
     private static void printInorder(TreeNode root) {
-        if(root==null) return;
+        if (root == null) return;
         printInorder(root.left);
         System.out.print(root.val + " ");
         printInorder(root.right);

@@ -1,7 +1,6 @@
-package Practice;
+package Practice.BettingGame;
 
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 /**
  * Created by gakshintala on 6/14/16.
@@ -16,14 +15,16 @@ public class BettingGame {
         }
 
         int initAmount = 4;
-        Stream.of(strings).forEach(str -> System.out.println(bettingOutcome(initAmount, str)));
+        for (String str : strings) {
+            System.out.println(bettingOutcome(initAmount, str));
+        }
     }
 
     private static int bettingOutcome(int amount, String str) {
         int bet = 1;
         for (char result : str.toCharArray()) {
             amount -= bet;
-            if (amount <= 0) {
+            if (amount < 0) {
                 return -1;
             }
             if (result == 'W') {

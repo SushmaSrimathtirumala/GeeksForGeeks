@@ -1,10 +1,10 @@
 package Regular.Trees.PrintPath;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 import java.util.Arrays;
 
-import static Regular.DsAndUtils.Utils.treeDepth;
+import static DsAndUtils.Utils.treeDepth;
 
 /**
  * Created by gakshintala on 6/10/16.
@@ -25,7 +25,7 @@ public class PrintPath {
     private static void printPath(TreeNode root, int level, TreeNode[] path) {
         path[level] = root;
 
-        if (root==null || (root.left == null && root.right == null)) {
+        if (root == null || (root.left == null && root.right == null)) {
             System.out.println(Arrays.toString(path));
             path[level] = null; // Like erasing these elements for backtracking
             return;

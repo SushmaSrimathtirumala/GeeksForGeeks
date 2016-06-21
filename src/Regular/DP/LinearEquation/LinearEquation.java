@@ -12,7 +12,7 @@ public class LinearEquation {
 
     private static int solutionCount(int[] coeff, int rhs) {
         int len = coeff.length;
-        int[] table = new int[rhs+1];
+        int[] table = new int[rhs + 1];
         table[0] = 1; // if rhs=1, 1 solution i.e., all vals are 0s
         // Same as Coin Change problem
         // Per Coeff

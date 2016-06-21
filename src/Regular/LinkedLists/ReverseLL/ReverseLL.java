@@ -1,8 +1,8 @@
 package Regular.LinkedLists.ReverseLL;
 
-import Regular.DsAndUtils.SLLNode;
+import DsAndUtils.SLLNode;
 
-import static Regular.DsAndUtils.Utils.printSLL;
+import static DsAndUtils.Utils.printSLL;
 
 /**
  * Created by gakshintala on 6/10/16.

@@ -1,10 +1,10 @@
 package Regular.Trees.BSTFromPreOrder;
 
-import Regular.DsAndUtils.TreeNode;
+import DsAndUtils.TreeNode;
 
 import java.util.Stack;
 
-import static Regular.DsAndUtils.Utils.treeInorder;
+import static DsAndUtils.Utils.treeInorder;
 
 /**
  * Created by gakshintala on 6/12/16.
@@ -42,7 +42,7 @@ public class BSTFromPreOrder {
         for (int i = 1; i < pre.length; i++) {
             TreeNode node = new TreeNode(pre[i]);
             // Left nodes are made as and when a lesser is about to be pushed
-            if(pre[i] < stk.peek().val) {
+            if (pre[i] < stk.peek().val) {
                 stk.peek().left = node;
             } else { // right nodes are made if a value greater than current peek found. we need to pop till we find 
                 // its root to attach it as right child
@@ -59,6 +59,7 @@ public class BSTFromPreOrder {
 
 class Index {
     public int index;
+
     public Index(int index) {
         this.index = index;
     }

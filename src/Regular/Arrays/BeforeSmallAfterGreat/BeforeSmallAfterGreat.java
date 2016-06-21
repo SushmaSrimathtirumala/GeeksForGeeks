@@ -11,17 +11,17 @@ public class BeforeSmallAfterGreat {
 
     private static int findPos(int[] arr) {
         int len = arr.length;
-        int[] leftMaxArr = new int[len+1];
+        int[] leftMaxArr = new int[len + 1];
         leftMaxArr[0] = Integer.MIN_VALUE;
         // Min of numbers before i, so we compare with i-1.
-        for(int i=1;i<=len;i++) {
-            leftMaxArr[i] = Math.max(leftMaxArr[i-1], arr[i-1]);
+        for (int i = 1; i <= len; i++) {
+            leftMaxArr[i] = Math.max(leftMaxArr[i - 1], arr[i - 1]);
         }
-        
+
         int rightMin = Integer.MAX_VALUE;
-        for(int i=len-1;i>=0;i--) {
+        for (int i = len - 1; i >= 0; i--) {
             // We compare with right min after the current i. So if condition is placed before setting new rightMin.
-            if(arr[i] > leftMaxArr[i] && arr[i] < rightMin) {
+            if (arr[i] > leftMaxArr[i] && arr[i] < rightMin) {
                 return i; // Returns position
             }
             rightMin = Math.min(rightMin, arr[i]);

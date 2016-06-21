@@ -15,7 +15,7 @@ public class NextGreaterElement {
         int len = arr.length;
         Stack<Integer> stk = new Stack<>();
         stk.push(arr[0]);
-        
+
         // Idea of using a stack is to have control over the history of elements traversed.
         for (int i = 1; i < len; i++) {
             if (arr[i] < stk.peek()) {
@@ -28,9 +28,9 @@ public class NextGreaterElement {
                 stk.push(arr[i]);
             }
         }
-        
+
         // Remaining elements won't have any heighest
-        for(int ele:stk) {
+        for (int ele : stk) {
             System.out.println(ele + " --> " + -1);
         }
     }

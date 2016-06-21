@@ -1,8 +1,8 @@
 package Regular.LinkedLists.OddEvenRearrange;
 
-import Regular.DsAndUtils.SLLNode;
+import DsAndUtils.SLLNode;
 
-import static Regular.DsAndUtils.Utils.printSLL;
+import static DsAndUtils.Utils.printSLL;
 
 /**
  * Created by gakshintala on 4/22/16.
@@ -18,11 +18,11 @@ public class OddEvenRearrange {
         rearrangeEvenOdd(head);
         printSLL(head);
     }
-    
+
     private static void rearrangeEvenOdd(SLLNode head) {
         SLLNode odd = head;
         SLLNode even = head.next;
-        
+
         SLLNode evenFirst = even;
         while (true) {
             // Check even.next before setting to odd

@@ -1,7 +1,7 @@
 package Regular.Trees.TreeFromInorderAndPreOrder;
 
-import Regular.DsAndUtils.TreeNode;
-import Regular.DsAndUtils.Utils;
+import DsAndUtils.TreeNode;
+import DsAndUtils.Utils;
 
 /**
  * Created by gakshintala on 6/12/16.
@@ -21,7 +21,7 @@ public class TreeFromInorderAndPreOrder {
         if (index.index < pre.length) {
             // Simple optimization to avoid recursive call leaf nodes. Since recursion ends here, no need to check 
             // for left-right range below
-            if(left==right) {
+            if (left == right) {
                 return new TreeNode(pre[index.index++]);
             }
             char val = pre[index.index];
@@ -46,6 +46,7 @@ public class TreeFromInorderAndPreOrder {
 
 class Index {
     public int index;
+
     public Index(int index) {
         this.index = index;
     }

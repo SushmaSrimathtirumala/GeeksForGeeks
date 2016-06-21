@@ -15,20 +15,20 @@ public class LCS1sReplacing0s {
         int len = arr.length;
         int prev, curr;
         prev = curr = 0;
-        int max = 0, maxIndex=0;
-        
-        for(int i=0; i<len; i++) {
-            if(arr[i]==0 || i==len-1) {
-                int maxCurr = i-1-prev;
-                if(max < maxCurr) {
+        int max = 0, maxIndex = 0;
+
+        for (int i = 0; i < len; i++) {
+            if (arr[i] == 0 || i == len - 1) {
+                int maxCurr = i - 1 - prev;
+                if (max < maxCurr) {
                     max = maxCurr;
                     maxIndex = curr;
                 }
                 prev = curr;
-                curr=i;
+                curr = i;
             }
         }
-        int[] result = {maxIndex,max};
+        int[] result = {maxIndex, max};
         return result;
     }
 }
