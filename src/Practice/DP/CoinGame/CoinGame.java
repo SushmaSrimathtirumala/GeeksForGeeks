@@ -1,21 +1,29 @@
-package Regular.DP.CoinGame;
+package Practice.DP.CoinGame;
+
+import java.util.Scanner;
 
 /**
  * Created by gakshintala on 6/10/16.
  */
 public class CoinGame {
     public static void main(String[] args) {
-        int arr[] = {8, 15, 3, 7};
-        System.out.println(maxValueInGame(arr));
+        Scanner scn = new Scanner(System.in);
+        int tests = scn.nextInt();
+        while (tests-- > 0) {
+            int len = scn.nextInt();
+            int[] arr = new int[len];
+            fillArray(arr, scn);
+            System.out.println(maxValueInGame(arr));
+        }
     }
 
     private static int maxValueInGame(int[] arr) {
         int len = arr.length;
         // Dealing in Tuples. This table is populated only half, tending towards top right
         int[][] table = new int[len][len];
-        // Although we start with gap 0, cases are handled accordingly as we are checking bounds. It needs minimum of
-        // 3 coins for a game or it is just maximum of both.
-        for (int gap = 0; gap < len; gap++) {
+        // We start at gap=1, cause that's where game starts, which is max of two 
+        // It needs minimum of 4 coins for a game to get interesting or it is just maximum of both.
+        for (int gap = 1; gap < len; gap++) {
             for (int i = 0, j = gap; j < len; i++, j++) {
                 // Checking if bounds are valid, if valid return table results or 0, which eventually goes into table
                 int x = (i + 2 < j) ? table[i + 2][j] : 0;
@@ -29,5 +37,11 @@ public class CoinGame {
             }
         }
         return table[0][len - 1];
+    }
+
+    private static void fillArray(int[] arr, Scanner scn) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = scn.nextInt();
+        }
     }
 }

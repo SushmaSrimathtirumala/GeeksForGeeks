@@ -1,11 +1,11 @@
-package Practice.DP.FormPalindrome;
+package Practice.DP.PalindromeMaker;
 
 import java.util.Scanner;
 
 /**
  * Created by gakshintala on 6/20/16.
  */
-public class FormPalindrome {
+public class PalindromeMaker {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int tests = scn.nextInt();

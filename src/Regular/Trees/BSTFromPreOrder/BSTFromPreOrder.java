@@ -25,6 +25,7 @@ public class BSTFromPreOrder {
             if (val >= minValue && val < maxValue) {
                 TreeNode root = new TreeNode(val);
                 // This index takes the array traversal forward, array goes forward only if the val falls in range 
+                // The index values stays common through all recursions.
                 index.index++;
                 root.left = bstFromPreOrderRecursive(pre, minValue, val, index);
                 root.right = bstFromPreOrderRecursive(pre, val, maxValue, index);
