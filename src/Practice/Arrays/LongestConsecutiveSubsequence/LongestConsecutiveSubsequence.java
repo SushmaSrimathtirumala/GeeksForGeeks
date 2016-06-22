@@ -1,4 +1,4 @@
-package Practice.LongestConsecutiveSubsequence;
+package Practice.Arrays.LongestConsecutiveSubsequence;
 
 import java.util.Arrays;
 import java.util.Scanner;

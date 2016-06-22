@@ -1,4 +1,4 @@
-package Practice.BitonicSubArray;
+package Practice.Arrays.BitonicSubArray;
 
 import java.util.Scanner;
 

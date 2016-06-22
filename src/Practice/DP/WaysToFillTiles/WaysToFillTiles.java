@@ -1,4 +1,4 @@
-package Practice.WaysToFillTiles;
+package Practice.DP.WaysToFillTiles;
 
 import java.util.Scanner;
 

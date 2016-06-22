@@ -1,4 +1,4 @@
-package Practice.BettingGame;
+package Practice.DP.BettingGame;
 
 import java.util.Scanner;
 

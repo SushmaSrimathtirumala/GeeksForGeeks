@@ -1,4 +1,4 @@
-package Practice.FormPalindrome;
+package Practice.DP.FormPalindrome;
 
 import java.util.Scanner;
 

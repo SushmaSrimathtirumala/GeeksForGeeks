@@ -1,9 +1,9 @@
-package Regular.DP;
+package Regular.DP.PalindromeLongestLength;
 
 /**
  * Created by gakshintala on 4/20/16.
  */
-public class LongestPalindromeSequence {
+public class PalindromeLongestLength {
     public static void main(String[] args) {
         char seq[] = "GEEKS FOR GEEKS".toCharArray();
         System.out.println(longestPalindromeSequence(seq));

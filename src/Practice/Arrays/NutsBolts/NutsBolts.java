@@ -1,4 +1,4 @@
-package Practice.NutsBolts;
+package Practice.Arrays.NutsBolts;
 
 import java.util.Scanner;
 
