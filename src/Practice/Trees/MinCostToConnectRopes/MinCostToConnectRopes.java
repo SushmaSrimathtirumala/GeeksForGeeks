@@ -1,4 +1,4 @@
-package Practice.MinCostToConnectRopes;
+package Practice.Trees.MinCostToConnectRopes;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
