@@ -20,6 +20,7 @@ public class TrianglesPossible {
             // We try with various j's and k takes-up from where it is left. So when we move i, j to next pair
             // we check to see if that can extend the range to which k can go. We then calculate the possible 
             // triangle combos i, new j, till new k. Old i/j's get excluded in this combo, so always a new combo.
+            // Although there are two loops, observe this takes only O(n) as K just resumes but doesn't start over
             for (j = i + 1; j < len - 1; j++) {
                 for (; k < len && arr[i] + arr[j] > arr[k]; k++)
                     ; // All vals till which this condition is satisfied can be used along with i,j to form a triangle

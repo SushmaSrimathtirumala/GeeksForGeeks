@@ -38,7 +38,7 @@ public class OddEvenRearrange {
 
             // Check odd.next before setting to even
             if (odd.next == null) {
-                odd.next = evenFirst;
+                odd.next = evenFirst; // Link odd and even lists
                 even.next = null;
                 break;
             }

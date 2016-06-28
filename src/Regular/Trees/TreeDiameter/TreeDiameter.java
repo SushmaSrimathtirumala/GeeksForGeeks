@@ -18,13 +18,13 @@ public class TreeDiameter {
 
     private static int diameter(TreeNode root, Height height) {
         if (root == null) {
-            // This is a bottom-up approach. So from top, we pass height as one if there is a valid node, so if the 
+            // This is a bottom-up approach. So from top, we pass height as one assuming a non-null node, so if the 
             // node is null, we set it to 0
             height.height = 0;
             return 0;
         }
         // Objects are used as unique refs across recursion
-        Height leftHeight = new Height();
+        Height leftHeight = new Height(); // Always gets initialized to 0 before calling recursion
         Height rightHeight = new Height();
         leftHeight.height++;
         rightHeight.height++;

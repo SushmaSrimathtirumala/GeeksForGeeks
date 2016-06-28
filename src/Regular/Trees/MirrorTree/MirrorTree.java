@@ -28,6 +28,7 @@ public class MirrorTree {
 
     private static void mirrorTree(TreeNode root) {
         if (root == null) return;
+        // Bottom-up approach
         // Go as deep as possible, both on left and right side before swapping for the first time
         mirrorTree(root.left);
         mirrorTree(root.right);

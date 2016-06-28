@@ -27,6 +27,8 @@ public class LRUCache {
     }
 
     public void referPage(int pageNo) {
+        // Motto is not to have faster refers for recently used cache, but to remove least recently used cache.
+        // So HashMap is always referred.
         DLLNode node = lruQueue.getNodeForPage(pageNo);
         if (node == null) { // New page
             node = new DLLNode(pageNo);

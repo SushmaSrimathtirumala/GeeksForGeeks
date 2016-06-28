@@ -18,7 +18,7 @@ public class SortTwoElementsSwapped {
             if (arr[i] < arr[i - 1]) {
                 int j = i - 1;
 
-                // Find the first encounter of smaller element than this
+                // Find the first encounter of smaller element than this towards left
                 for (; j >= 0 && arr[j] > arr[i]; j--)
                     ;
 

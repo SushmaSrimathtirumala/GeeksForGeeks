@@ -15,7 +15,8 @@ public class SearchSortedRotated {
         if (arr[mid] == key) {
             return mid;
         }
-
+        
+        // Which means the value falls inside this range
         if (key > arr[left] && key < arr[mid])
             return search(arr, key, left, mid - 1);
 

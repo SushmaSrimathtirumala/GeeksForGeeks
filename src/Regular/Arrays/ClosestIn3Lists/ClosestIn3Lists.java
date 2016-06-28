@@ -1,9 +1,9 @@
-package Regular.Arrays.ClosestElements;
+package Regular.Arrays.ClosestIn3Lists;
 
 /**
  * Created by gakshintala on 6/11/16.
  */
-public class ClosestElements {
+public class ClosestIn3Lists {
     public static void main(String[] args) {
         int a[] = {1, 4, 10};
         int b[] = {2, 15, 20};

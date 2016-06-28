@@ -44,7 +44,7 @@ public class DiagonalTreeTraversal {
             map.put(diagonal, diagonalList);
         }
         diagonalList.add(root);
-        diagonalTreeTraversal(root.right, map, diagonal);
-        diagonalTreeTraversal(root.left, map, diagonal + 1);
+        diagonalTreeTraversal(root.right, map, diagonal); // All right nodes fall in same diagnol
+        diagonalTreeTraversal(root.left, map, diagonal + 1); // A left node falls in adjecent diagnol
     }
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by gakshintala on 3/28/16.
  * <p>
- * This can only calculate the lenght of first encountered Cycle.
+ * This can only calculate the length of first encountered Cycle.
  */
 public class CountCycleLength {
 
