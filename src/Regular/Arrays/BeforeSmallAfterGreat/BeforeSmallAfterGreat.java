@@ -14,13 +14,14 @@ public class BeforeSmallAfterGreat {
         int[] leftMaxArr = new int[len + 1];
         leftMaxArr[0] = Integer.MIN_VALUE;
         // Min of numbers before i, so we compare with i-1.
-        for (int i = 1; i <= len; i++) {
+        // Only 1 to len-1 is sufficient. No need of max for last element, coz it's done in the below loop 1st iteration
+        for (int i = 1; i < len; i++) {
             leftMaxArr[i] = Math.max(leftMaxArr[i - 1], arr[i - 1]);
         }
 
         int rightMin = Integer.MAX_VALUE;
         for (int i = len - 1; i >= 0; i--) {
-            // We compare with right min after the current i. So if condition is placed before setting new rightMin.
+            // We compare with right min after the current i. So, 'if condition' is placed before setting new rightMin.
             if (arr[i] > leftMaxArr[i] && arr[i] < rightMin) {
                 return i; // Returns position
             }

@@ -1,4 +1,4 @@
-package Practice.Arrays.NextGreaterNum;
+package Practice.Arrays.NextGreaterNumWithDigits;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by gakshintala on 6/22/16.
  */
-public class NextGreaterNum {
+public class NextGreaterNumWithDigits {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int tests = scn.nextInt();

@@ -19,7 +19,7 @@ public class TwiceMinGTMax {
 
     private static int minElementsToRemove(int[] arr) {
         int len = arr.length;
-        int long_start = -1, long_end = 0;
+        int maxSubArrayStart = -1, maxSubArrayEnd = 0;
         for (int start = 0; start < len; start++) {
             int min = arr[start], max = arr[start];
             for (int end = start + 1; end < len; end++) {
@@ -36,14 +36,14 @@ public class TwiceMinGTMax {
 
                 // This is constantly updated whenever the above contract is satisfied. We cannot place it in above 
                 // break statement as sometimes, it may not break at all.
-                if (end - start > long_end - long_start || long_start == -1) {
-                    long_start = start;
-                    long_end = end;
+                if (end - start > maxSubArrayEnd - maxSubArrayStart || maxSubArrayStart == -1) {
+                    maxSubArrayStart = start;
+                    maxSubArrayEnd = end;
                 }
             }
         }
-        if (long_start == -1) return len;
-        return len - (long_end - long_start + 1);
+        if (maxSubArrayStart == -1) return len;
+        return len - (maxSubArrayEnd - maxSubArrayStart + 1);
     }
 
     private static void fillArray(int[] arr, Scanner scn) {

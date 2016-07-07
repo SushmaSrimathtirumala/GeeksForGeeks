@@ -1,4 +1,4 @@
-package Regular.Arrays.SubsetMaxSum;
+package Regular.Arrays.SubArrayMaxSum;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 /**
  * Created by gakshintala on 2/25/16.
  */
-public class SubsetMaxSum {
+public class SubArrayMaxSum {
 
     public static void main(String[] args) {
         int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};
@@ -57,6 +57,16 @@ public class SubsetMaxSum {
         }
         if (maxSum == 0) subarray.maxSum = getMaxInArray(arr);
         return subarray;
+    }
+
+    private static int findMaximumSubarrayContiguous2(List<Integer> arr) {
+        int curSum = arr.get(0);
+        int maxSoFar = arr.get(0);
+        for(int i=1;i<arr.size(); i++) {
+            curSum = Math.max(curSum, curSum+arr.get(i));
+            maxSoFar = Math.max(maxSoFar, curSum);
+        }
+        return maxSoFar;
     }
 
     private static int findMaximumSubarrayNonContiguous(List<Integer> arr) {

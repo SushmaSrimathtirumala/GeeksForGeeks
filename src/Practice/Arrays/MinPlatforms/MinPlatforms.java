@@ -25,17 +25,14 @@ public class MinPlatforms {
     private static int minPlatforms(int[] arr, int[] dep) {
         Arrays.sort(arr);
         Arrays.sort(dep);
-        //System.out.println(Arrays.toString(arr));
-        //System.out.println(Arrays.toString(dep));
+        // Just like Merge sort
         int len = arr.length;
         int arrivals = 0, maxArrivals = 1, i = 0, j = 0; // maxArrivals is atleast 1
         while (i < len && j < len) {
             if (arr[i] < dep[j]) {
                 i++;
                 arrivals++;
-                if (arrivals > maxArrivals) {
-                    maxArrivals = arrivals;
-                }
+                maxArrivals = Math.max(arrivals, maxArrivals);
             } else {
                 j++;
                 arrivals--; // Can go negative for departure times for next day which are less than arrival times. 
@@ -43,7 +40,7 @@ public class MinPlatforms {
             }
         }
         // No need of this code, cause here the departure time lesser than arrival time is depicted by train leaving 
-        // next day. So we encounter their departures earlier than their arrival in the algo.
+        // next day. So we encounter their departures earlier than their arrival in the sorted array.
         /*if (j == len) {
             maxArrivals += (len - 1 - i);
         }*/
