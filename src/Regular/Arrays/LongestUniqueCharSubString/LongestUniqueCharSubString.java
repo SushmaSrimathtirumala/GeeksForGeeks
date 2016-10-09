@@ -20,14 +20,13 @@ public class LongestUniqueCharSubString {
             char c = str.charAt(i);
             if (map.containsKey(c)) {
                 max = Math.max(max, count);
-                // Consider the sequence from next index of first occurrence.
+                // Consider the length of sequence from next index of first occurrence.
                 count = i - map.get(c);
             } else {
                 map.put(c, i);
                 count++;
             }
         }
-
         return Math.max(max, count);
     }
 }
