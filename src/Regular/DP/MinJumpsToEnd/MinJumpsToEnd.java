@@ -34,6 +34,9 @@ public class MinJumpsToEnd {
         return table[len - 1];
     }
 
+    /**
+     * This is comparatively better and cleaner approach
+     */
     private static int minJumpsToEnd2(int[] arr) {
         int len = arr.length;
         if (len == 0 || arr[0] == 0)
@@ -48,7 +51,7 @@ public class MinJumpsToEnd {
             for (int j = 0; j < i; j++) {
                 if (j + arr[j] >= i && table[j] != Integer.MAX_VALUE) {
                     table[i] = Math.min(table[i], table[j] + 1);
-                    break; // because table[j] itself is minimum to reach j, so you can get better than table[j]+1
+                    break; // because table[j] itself is minimum to reach j, so you cannot get better than table[j]+1
                 }
             }
         }

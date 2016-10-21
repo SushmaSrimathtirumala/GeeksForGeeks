@@ -19,7 +19,7 @@ public class Utils {
         int right = pivotPos - 1;
         int left = low;
         while (left < right) {
-            while (left <= pivotPos && arr[left] < arr[pivotPos]) left++;
+            while (left <= pivotPos && arr[left] < arr[pivotPos]) left++; // Note the <= in left<=pivotPos
             while (right > low && arr[right] > arr[pivotPos]) right--;
             if (left < right) swap(arr, left, right);
         }

@@ -28,7 +28,6 @@ public class LCS1sReplacing0s {
                 curr = i;
             }
         }
-        int[] result = {maxIndex, max};
-        return result;
+        return new int[]{maxIndex, max};
     }
 }

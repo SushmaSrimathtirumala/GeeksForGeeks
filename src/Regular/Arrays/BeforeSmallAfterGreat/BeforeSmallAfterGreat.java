@@ -23,6 +23,7 @@ public class BeforeSmallAfterGreat {
         for (int i = len - 1; i >= 0; i--) {
             // We compare with right min after the current i. So, 'if condition' is placed before setting new rightMin.
             if (arr[i] > leftMaxArr[i] && arr[i] < rightMin) {
+                // It is greater than max in left, so greater than all in left
                 return i; // Returns position
             }
             rightMin = Math.min(rightMin, arr[i]);
