@@ -27,8 +27,8 @@ public class CountFrequencies {
         for (int i = 0; i < len; i++) {
             arr[arr[i] % len] += len;
         }
-        for (int i = 0; i < len; i++) {
-            System.out.print(arr[i] / len + " ");
+        for (int freq : arr) {
+            System.out.print(freq / len + " ");
         }
     }
 

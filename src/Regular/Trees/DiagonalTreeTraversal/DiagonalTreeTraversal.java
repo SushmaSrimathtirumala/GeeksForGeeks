@@ -38,13 +38,9 @@ public class DiagonalTreeTraversal {
         if (root == null) {
             return;
         }
-        List<TreeNode> diagonalList = map.get(diagonal);
-        if (diagonalList == null) {
-            diagonalList = new ArrayList<>();
-            map.put(diagonal, diagonalList);
-        }
+        List<TreeNode> diagonalList = map.computeIfAbsent(diagonal, k -> new ArrayList<>());
         diagonalList.add(root);
-        diagonalTreeTraversal(root.right, map, diagonal); // All right nodes fall in same diagnol
-        diagonalTreeTraversal(root.left, map, diagonal + 1); // A left node falls in adjecent diagnol
+        diagonalTreeTraversal(root.right, map, diagonal); // All right nodes fall in same diagonal
+        diagonalTreeTraversal(root.left, map, diagonal + 1); // A left node falls in adjacent diagonal
     }
 }

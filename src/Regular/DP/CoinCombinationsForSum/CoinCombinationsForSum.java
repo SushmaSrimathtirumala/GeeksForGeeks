@@ -1,15 +1,15 @@
-package Regular.DP.CoinCombination;
+package Regular.DP.CoinCombinationsForSum;
 
 /**
  * Created by gakshintala on 4/22/16.
  */
-public class CoinCombination {
+public class CoinCombinationsForSum {
     public static void main(String[] args) {
         int coins[] = {1, 2, 3};
-        System.out.println(coinCombination(coins, 4));
+        System.out.println(coinCombinationsForSum(coins, 4));
     }
 
-    private static int coinCombination(int[] coins, int sum) {
+    private static int coinCombinationsForSum(int[] coins, int sum) {
         int[] table = new int[sum + 1];
         table[0] = 1;
         int coinLen = coins.length;

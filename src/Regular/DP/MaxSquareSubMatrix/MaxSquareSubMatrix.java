@@ -22,9 +22,7 @@ public class MaxSquareSubMatrix {
             table[i][0] = m[i][0];
         }
 
-        for (int j = 0; j < col; j++) {
-            table[0][j] = m[0][j];
-        }
+        System.arraycopy(m[0], 0, table[0], 0, col);
 
         for (int i = 1; i < row; i++) {
             for (int j = 1; j < col; j++) {
