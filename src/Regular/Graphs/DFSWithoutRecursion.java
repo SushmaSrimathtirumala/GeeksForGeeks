@@ -16,27 +16,25 @@ public class DFSWithoutRecursion {
 
         DiGraph g = readGraph(scn, vertexCount, edgeCount);
         System.out.println("Normal DFS: ");
-        dfsWithoutRecursion(g);
+        dfsIterative(g);
 
         System.out.println();
         boolean[] visited = new boolean[vertexCount + 1];
         System.out.println("Regular.BackTracking DFS: ");
-        dfsBackTracking(g, 1, visited);
+        dfsRecursive(g, 1, visited);
     }
 
-    private static void dfsBackTracking(DiGraph g, int vertex, boolean[] visited) {
-        int vertexCount = g.getVertexCount();
+    private static void dfsRecursive(DiGraph g, int vertex, boolean[] visited) {
         visited[vertex] = true;
         System.out.print(vertex + " ");
         for (int neighbour : g.getAllOutgoingVertices(vertex)) {
             if (!visited[neighbour]) {
-                dfsBackTracking(g, neighbour, visited);
+                dfsRecursive(g, neighbour, visited);
             }
         }
-        visited[vertex] = false;
     }
 
-    private static void dfsWithoutRecursion(DiGraph g) {
+    private static void dfsIterative(DiGraph g) {
         Stack<Integer> stk = new Stack();
         int vertexCount = g.getVertexCount();
         boolean[] visited = new boolean[vertexCount + 1];

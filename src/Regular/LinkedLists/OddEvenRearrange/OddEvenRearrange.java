@@ -23,11 +23,11 @@ public class OddEvenRearrange {
         SLLNode odd = head;
         SLLNode even = head.next;
 
-        SLLNode evenFirst = even;
+        SLLNode evenFirst = even; // Store it to link even and odd at the end
         while (true) {
             // Check even.next before setting to odd
             // If list ended, link both even and odd lists
-            if (odd == null || even == null || even.next == null) {
+            if (even == null || even.next == null) {
                 odd.next = evenFirst;
                 break;
             }

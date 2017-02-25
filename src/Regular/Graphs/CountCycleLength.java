@@ -11,10 +11,10 @@ import java.util.Scanner;
  */
 public class CountCycleLength {
 
-    static boolean[] visited; // visited - used to prevent running into nodes that are already visited
-    static boolean[] hasCycle; // hasCycle - used to nodes that are hasCycle and they are set to false if all the nodes
+    private static boolean[] visited; // visited - used to prevent running into nodes that are already visited
+    private static boolean[] hasCycle; // hasCycle - used to nodes that are hasCycle and they are set to false if all the nodes
     // going away from this are check for hasCycle and is clear without cycle
-    static DiGraph g;
+    private static DiGraph g;
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -29,11 +29,11 @@ public class CountCycleLength {
         // from all vertices to see which one of them can cause a cycle.
         for (int i = 1; i <= vertexCount; i++) {
             if (!visited[i]) {
-                cycleNode cycleNode = checkCycle(i);
-                if (cycleNode.nodeValue != -1) {
-                    System.out.println("Cycle Detected at: " + cycleNode.nodeValue);
-                    //int cycleLen = countCycleLength(cycleNode);
-                    System.out.println("Cycle length: " + cycleNode.count);
+                CycleNode CycleNode = checkCycle(i);
+                if (CycleNode.nodeValue != -1) {
+                    System.out.println("Cycle Detected at: " + CycleNode.nodeValue);
+                    //int cycleLen = countCycleLength(CycleNode);
+                    System.out.println("Cycle length: " + CycleNode.count);
                     //return;
                 }
             }
@@ -42,12 +42,12 @@ public class CountCycleLength {
     }
 
     // This uses DFS
-    private static cycleNode checkCycle(int i) {
+    private static CycleNode checkCycle(int i) {
         visited[i] = true;
         hasCycle[i] = true;
         for (int neighbour : g.getAllOutgoingVertices(i)) {
             if (!visited[neighbour]) {
-                cycleNode result = checkCycle(neighbour);
+                CycleNode result = checkCycle(neighbour);
                 if (result.nodeValue == -1) {
                     hasCycle[i] = false;
                 } else if (result.countIncrement) {
@@ -60,10 +60,10 @@ public class CountCycleLength {
                 return result;
             }
             // If above check is skipped due to visited, we still have record of hasCycle and we shall check as below.
-            if (hasCycle[neighbour]) return new cycleNode(neighbour, 1, true);
+            if (hasCycle[neighbour]) return new CycleNode(neighbour, 1, true);
         }
         hasCycle[i] = false; // This node is clear, doesn't cause any cycle due to its outgoing nodes;
-        return new cycleNode(-1, 0, false); // No cycle here
+        return new CycleNode(-1, 0, false); // No cycle here
     }
 
     private static DiGraph readGraph(Scanner scn, int vertexCount, int edgeCount) {
@@ -75,12 +75,12 @@ public class CountCycleLength {
     }
 }
 
-class cycleNode {
+class CycleNode {
     int nodeValue;
     int count;
     boolean countIncrement;
 
-    public cycleNode(int nodeValue, int count, boolean countIncrement) {
+    public CycleNode(int nodeValue, int count, boolean countIncrement) {
         this.nodeValue = nodeValue;
         this.count = count;
         this.countIncrement = countIncrement;

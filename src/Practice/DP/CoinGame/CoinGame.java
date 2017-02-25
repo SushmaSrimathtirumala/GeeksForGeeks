@@ -32,7 +32,7 @@ public class CoinGame {
 
                 // If you pick ith coin, the other users picks a coin making your next pick be minimum of two 
                 // possibilities i.e., if he picks i+1, we are left with i+2, j. If he picks j, we are left with i+1,
-                // j-1. Similar, if we pick jth coin.
+                // j-1. Similarly, if we pick jth coin.
                 table[i][j] = Math.max(arr[i] + Math.min(x, y), arr[j] + Math.min(y, z));
             }
         }

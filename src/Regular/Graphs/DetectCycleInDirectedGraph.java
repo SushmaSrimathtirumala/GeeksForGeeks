@@ -34,6 +34,7 @@ public class DetectCycleInDirectedGraph {
         System.out.println("No Cycle");
     }
 
+    // This uses DFS
     private static boolean checkCycle(int i) {
         visited[i] = true;
         hasCycle[i] = true; // We are starting to check for hasCycle

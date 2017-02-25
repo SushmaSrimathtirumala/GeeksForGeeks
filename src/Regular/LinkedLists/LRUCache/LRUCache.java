@@ -34,15 +34,16 @@ public class LRUCache {
             node = new DLLNode(pageNo);
             lruQueue.enqueue(pageNo, node);
         } else if (node != lruQueue.front) { // No need to rearrange if the node is already front.
+            // Remove from current position
             node.prev.next = node.next;
-            // If node is rear, adjust the queue rear
-            if (node == lruQueue.rear) {
+            if (node == lruQueue.rear) { // If node is rear, adjust the queue rear
                 lruQueue.rear = node.prev;
             } else { // If not, connect its next to prev
                 node.next.prev = node.prev;
             }
-            // Adjust front
-            node.next = lruQueue.front;
+
+            // Add to front
+            node.next = lruQueue.front;// Adjust front
             lruQueue.front.prev = node;
             lruQueue.front = node;
             node.prev = null;

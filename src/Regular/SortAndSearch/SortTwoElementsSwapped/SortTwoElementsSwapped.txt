@@ -1,3 +1,4 @@
+
 Given an almost sorted array where only two elements are swapped, how to sort the array efficiently?
 
 Example

@@ -14,20 +14,22 @@ public class SortTwoElementsSwapped {
 
     private static void correctArray(int[] arr) {
         int len = arr.length;
+        // Right to left
         for (int i = len - 1; i >= 1; i--) {
-            if (arr[i] < arr[i - 1]) {
+            if (arr[i] < arr[i - 1]) { // find anomaly
                 int j = i - 1;
 
-                // Find the first encounter of smaller element than this towards left
-                for (; j >= 0 && arr[j] > arr[i]; j--)
-                    ;
+                // Starting from [i-1], Find the first encounter of smaller element [j] than [i] towards left,
+                // so it can fit before it in position [j+1]
+                while (j >= 0 && arr[j] > arr[i]) {
+                    j--;
+                }
 
                 // Swap the number before the first smaller encounter
                 swap(arr, i, j + 1);
                 break;
             }
         }
-
     }
 
     private static void swap(int[] arr, int i, int j) {

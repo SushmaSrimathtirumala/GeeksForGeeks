@@ -15,13 +15,12 @@ public class BSTFromPreOrder {
         treeInorder(bstFromPreOrderRecursive(pre, Integer.MIN_VALUE, Integer.MAX_VALUE, new Index(0)));
         System.out.println();
         treeInorder(bstFromPreOrderIterative(pre));
-
     }
 
     private static TreeNode bstFromPreOrderRecursive(int[] pre, int minValue, int maxValue, Index index) {
         if (index.index < pre.length) {
             int val = pre[index.index];
-            // Recursive calls are made for left right only in the valid call where val falls in range
+            // Recursive calls are made for left right, only in the valid call where val falls in range
             if (val >= minValue && val < maxValue) {
                 TreeNode root = new TreeNode(val);
                 // This index takes the array traversal forward, array goes forward only if the val falls in range 

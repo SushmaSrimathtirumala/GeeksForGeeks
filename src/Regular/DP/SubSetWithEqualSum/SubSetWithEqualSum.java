@@ -31,9 +31,8 @@ public class SubSetWithEqualSum {
     }
 
     private static int searchMinDiff(boolean[][] table, int sum, int len) {
-        int j = len;
         for (int i = sum / 2; i >= 0; i--) {
-            if (table[i][j] == true) {
+            if (table[i][len]) {
                 return sum - 2 * i; // Sum of one subset is i and other is sum-i, so its (Sum-i) - i 
             }
         }
