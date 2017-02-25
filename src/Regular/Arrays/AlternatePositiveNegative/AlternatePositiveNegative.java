@@ -16,7 +16,7 @@ public class AlternatePositiveNegative {
         int outOfPlace = -1;
         for (int i = 0; i < arr.length; i++) {
             if (outOfPlace >= 0) {
-                // Search for suitable element index to place in outOfPlace
+                // Search for suitable element index with opposite sign to place in outOfPlace
                 if ((arr[i] >= 0 && arr[outOfPlace] < 0) || (arr[i] < 0 && arr[outOfPlace] >= 0)) {
                     rightShiftAndInsert(arr, i, outOfPlace);
                     // If the diff is > 2, which means no suitable element is found in between. i.e., all of them have 
@@ -37,16 +37,12 @@ public class AlternatePositiveNegative {
                     outOfPlace = i;
                 }
             }
-
-
         }
     }
 
     private static void rightShiftAndInsert(int[] arr, int rightBound, int insertIndex) {
         int temp = arr[rightBound];
-        for (int i = rightBound; i > insertIndex; i--) {
-            arr[i] = arr[i - 1];
-        }
+        System.arraycopy(arr, insertIndex, arr, insertIndex + 1, rightBound - insertIndex);
         arr[insertIndex] = temp;
     }
 }

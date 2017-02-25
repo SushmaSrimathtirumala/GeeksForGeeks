@@ -12,24 +12,24 @@ public class IsPreOrderBST {
         int tests = scn.nextInt();
         while (tests-- > 0) {
             int len = scn.nextInt();
-            int[] pre = new int[len];
-            fillArray(pre, scn);
-            System.out.println(isPreOrderBST(pre) ? 1: 0);
+            int[] preArr = new int[len];
+            fillArray(preArr, scn);
+            System.out.println(isPreOrderBST(preArr) ? 1: 0);
         }
     }
     
-    private static boolean isPreOrderBST(int[] pre) {
+    private static boolean isPreOrderBST(int[] preArr) {
         Stack<Integer> stk = new Stack<>();
         int root = Integer.MIN_VALUE;
-        for (int i = 0; i < pre.length; i++) {
-            if (pre[i] < root) {
+        for (int ele : preArr) {
+            if (ele < root) { // root remains to be the previous root, until a greater element is found
                 return false;
             }
 
-            while (!stk.isEmpty() && pre[i] > stk.peek()) {
+            while (!stk.isEmpty() && ele > stk.peek()) { // if a greater element is found, stack is dug untill the root
                 root = stk.pop();
             }
-            stk.push(pre[i]);
+            stk.push(ele);
         }
         return true;
     }

@@ -13,11 +13,15 @@ public class SubsetMinDiff {
 
     private static int minDiff(int[] arr) {
         int sum = Arrays.stream(arr).sum();
+
         int len = arr.length;
         boolean[][] table = new boolean[sum + 1][len + 1];
 
         for (int i = 0; i <= len; i++) {
             table[0][i] = true;
+        }
+        for (int i = 1; i <= sum; i++) {
+            table[i][0] = false;
         }
 
         for (int i = 1; i <= sum; i++) {

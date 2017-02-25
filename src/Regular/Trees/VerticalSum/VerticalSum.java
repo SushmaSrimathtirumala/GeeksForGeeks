@@ -31,18 +31,6 @@ public class VerticalSum {
         printDLL(dll);
     }
 
-    private static void verticalSum(TreeNode root, Map<Integer, Integer> map, int hd) {
-        if (root == null) {
-            return;
-        }
-        int prevSum = map.get(hd) == null ? 0 : map.get(hd);
-        map.put(hd, prevSum + root.val);
-
-        // Decrease horizontal distance as we move left and increase as we move right
-        verticalSum(root.left, map, hd - 1);
-        verticalSum(root.right, map, hd + 1);
-    }
-
     private static void verticalSumSpaceOptimized(TreeNode root, DLLNode dll) {
         if (root == null) {
             return;
@@ -50,6 +38,7 @@ public class VerticalSum {
 
         dll.val += root.val;
 
+        // Creation of new nodes if required, and recur
         if (root.left != null && dll.prev == null) {
             dll.prev = new DLLNode(0);
             dll.prev.next = dll;
@@ -63,5 +52,17 @@ public class VerticalSum {
         // Put the sum in next node if moving right or put in prev if moving left
         verticalSumSpaceOptimized(root.left, dll.prev);
         verticalSumSpaceOptimized(root.right, dll.next);
+    }
+
+    private static void verticalSum(TreeNode root, Map<Integer, Integer> map, int hd) {
+        if (root == null) {
+            return;
+        }
+        int prevSum = map.get(hd) == null ? 0 : map.get(hd);
+        map.put(hd, prevSum + root.val);
+
+        // Decrease horizontal distance as we move left and increase as we move right
+        verticalSum(root.left, map, hd - 1);
+        verticalSum(root.right, map, hd + 1);
     }
 }

@@ -51,7 +51,7 @@ public class SubArrayMaxAbsSumDiff {
         int[] leftMin = new int[len];
         int curSum = a[0], minSum = a[0];
         for (int i = 1; i < len; i++) {
-            curSum = Math.min(a[i], curSum + a[i]);
+            curSum = Math.min(a[i], curSum + a[i]); // Since negative numbers are involved
             minSum = Math.min(minSum, curSum);
             leftMin[i] = minSum;
         }

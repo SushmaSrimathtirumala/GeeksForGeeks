@@ -33,12 +33,15 @@ public class PrintCousins {
         return getLevel(root.right, val, level + 1);
     }
 
+    // The idea is to print all nodes at a level, skipping the one holding val as child
     private static void printCousins(TreeNode root, int val, int level) {
         if (root == null || level < 1) {
             return;
         }
         if (level == 1) {
             if (root.left.val == val || root.right.val == val) {
+                // This means We just tapped into the root that contains our value as one of the children,
+                // skip this and print all others
                 return;
             }
             if (root.left != null) System.out.print(root.left.val + " ");

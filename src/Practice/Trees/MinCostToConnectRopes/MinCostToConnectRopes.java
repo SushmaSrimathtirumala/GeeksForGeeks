@@ -19,6 +19,8 @@ public class MinCostToConnectRopes {
     }
 
     private static int minCostToConnectRopes(int[] arr) {
+        // The idea is to add up first two smaller numbers, but sorting doesn't work because when we put back the added
+        // result back in the list, sorting order changes, so we use a heap
         PriorityQueue<Integer> heap = new PriorityQueue<>();
         for (int e : arr) {
             heap.add(e);

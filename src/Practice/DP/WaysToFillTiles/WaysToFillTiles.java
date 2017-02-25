@@ -25,7 +25,7 @@ public class WaysToFillTiles {
                 table[i] = 2; // Either vertically or horizontally
             } else {
                 // Fill Horizontal, u r left with i-1 grid to fill
-                // Fill Vertical, u r left with i-4 grid to fill, cause the grids parellel to vertically filled one 
+                // Fill Vertical, u r left with i-4 grid to fill, cause the grids parallel to vertically filled one
                 // can only be filled in one way (imagine)
                 table[i] = table[i - 1] + table[i - 4];
             }

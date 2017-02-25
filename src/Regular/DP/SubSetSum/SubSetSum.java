@@ -22,7 +22,7 @@ public class SubSetSum {
             for (int j = 1; j <= len; j++) {
                 table[i][j] = table[i][j - 1]; // Exclude case - if we exclude this, check if we make this sum with other elements
                 if (set[j - 1] <= i) { // If current number we are checking is less than or equal to sum we need
-                    table[i][j] = table[i][j] || table[i - set[j - 1]][j]; // Include case table[i-set[j-1]][j] - if we include this, check if we can make the rest of sum 
+                    table[i][j] |= table[i - set[j - 1]][j]; // Include case table[i-set[j-1]][j] - if we include this, check if we can make the rest of sum
                 }
             }
         }

@@ -22,15 +22,16 @@ public class MaxProductSubArray {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 0) {
                 curMax *= arr[i];
-                curMin = Math.min(curMin * arr[i], 1); // min is required in cases where curMin=1
+                curMin = Math.min(curMin * arr[i], 1);
             } else if (arr[i] == 0) {
                 curMax = curMin = 1;
             } else {
                 int temp = curMax;
-                curMax = Math.max(curMin * arr[i], 1); // min is required in cases where curMin=1
+                curMax = Math.max(curMin * arr[i], 1);
                 curMin = temp * arr[i];
             }
-            maxSoFar = Math.max(maxSoFar, curMax);
+            maxSoFar = Math.max(maxSoFar, curMax); // we store result after every iteration,
+            // as curMin and curMax keep shuffling as we encounter negative numbers
         }
         return maxSoFar;
     }

@@ -37,10 +37,10 @@ public class NutsBolts {
     }
 
     private static void matchNutsToBolts(char[] nuts, int low, int high, char[] bolts) {
-        // Take a bolt and use it to partition nuts.
+        // Partition nuts.
         int partitionPoint = partition(nuts, low, high, bolts[high]);
 
-        // Take partition point nut and partition bolts. Post partition, the nut and bolt at partition point match.
+        // Partition bolts with nut at partition point. Post partition, the nut and bolt at partition point match.
         partition(bolts, low, high, nuts[partitionPoint]);
 
         // Recur this for left and right half.

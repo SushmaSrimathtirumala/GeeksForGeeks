@@ -1,14 +1,13 @@
+http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
 
-Partition a set into two subsets such that the difference of subset sums is minimum
+Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is same.
 
-Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum.
+Examples
 
-If there is a set S with n elements, then if we assume Subset1 has m elements, Subset2 must have n-m elements and the value of abs(sum(Subset1) – sum(Subset2)) should be minimum.
+arr[] = {1, 5, 11, 5}
+Output: true
+The array can be partitioned as {1, 5, 5} and {11}
 
-Example:
-
-Input:  arr[] = {1, 6, 11, 5} 
-Output: 1
-Explanation:
-Subset1 = {1, 5, 6}, sum of Subset1 = 12 
-Subset2 = {11}, sum of Subset2 = 11		
+arr[] = {1, 5, 3}
+Output: false
+The array cannot be partitioned into equal sum sets.

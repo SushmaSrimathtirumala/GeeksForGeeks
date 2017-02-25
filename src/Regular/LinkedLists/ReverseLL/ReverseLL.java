@@ -27,11 +27,11 @@ public class ReverseLL {
         SLLNode prev = null, cur, next = head;
 
         while (next != null) {
+            // next will be leading and cur and prev shall be reversing pointers
             cur = next;
-            // Preserve the next node and set it to prev
             next = next.next;
-            cur.next = prev;
 
+            cur.next = prev;
             prev = cur;
         }
 

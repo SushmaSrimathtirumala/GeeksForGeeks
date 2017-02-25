@@ -4,15 +4,17 @@ import DsAndUtils.TreeNode;
 
 /**
  * Created by gakshintala on 4/13/16.
+ *
+ * Not complete
  */
 public class SwappedNodes {
     public static void main(String[] args) {
         TreeNode bstNode7 = new TreeNode(7, null, null);
         TreeNode bstNode6 = new TreeNode(5, null, null);
-        TreeNode bstNode5 = new TreeNode(2, null, null);
-        TreeNode bstNode4 = new TreeNode(1, null, null);
+        TreeNode bstNode5 = new TreeNode(3, null, null);
+        TreeNode bstNode4 = new TreeNode(2, null, null);
         TreeNode bstNode3 = new TreeNode(6, bstNode6, bstNode7);
-        TreeNode bstNode2 = new TreeNode(3, bstNode4, bstNode5);
+        TreeNode bstNode2 = new TreeNode(1, bstNode4, bstNode5);
         TreeNode bstNode1 = new TreeNode(4, bstNode2, bstNode3);
 
         printInorder(bstNode1);
@@ -41,7 +43,7 @@ public class SwappedNodes {
         if (root == null) return refs;
         
         // Inorder traversal
-        correctSwappedNodes(root.left, refs[0], refs); // Before node of left most node in left tree is null
+        correctSwappedNodes(root.left, parent, refs); // Parent node of left most node in left tree will be null
         
         if (parent != null && root.val < parent.val) {
             if (refs[0] == null) { // ref[1] is if adjacent nodes are swapped, in that case we wont find another anomaly
@@ -52,8 +54,8 @@ public class SwappedNodes {
                 return refs;
             }
         }
-        
-        correctSwappedNodes(root.right, root, refs);
+        parent = root;
+        correctSwappedNodes(root.right, parent, refs);
         return refs;
     }
 

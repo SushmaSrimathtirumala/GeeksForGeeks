@@ -19,8 +19,8 @@ public class NonRepeatingNumber {
 
     private static int nonRepeatingNumber(int[] arr) {
         int xor = 0;
-        for (int i = 0; i < arr.length; i++) {
-            xor ^= arr[i];
+        for (int ele : arr) {
+            xor ^= ele;
         }
         return xor;
     }

@@ -15,7 +15,7 @@ public class Utils {
         if (partitionPoint + 1 < high) quickSort(arr, partitionPoint + 1, high);
     }
 
-    public static int partition(int[] arr, int low, int pivotPos) {
+    private static int partition(int[] arr, int low, int pivotPos) {
         int right = pivotPos - 1;
         int left = low;
         while (left < right) {

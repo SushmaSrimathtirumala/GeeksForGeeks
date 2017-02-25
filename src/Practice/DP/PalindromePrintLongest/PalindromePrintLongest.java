@@ -30,6 +30,7 @@ public class PalindromePrintLongest {
                     } else if (table[i + 1][j - 1]) {
                         table[i][j] = true;
                     }
+                    // Storing results
                     if (table[i][j] && (gap > maxGap)) {
                         start = i;
                         maxGap = gap;

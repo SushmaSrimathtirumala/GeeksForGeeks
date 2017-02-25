@@ -30,7 +30,9 @@ public class PrintAllPaths {
             path[level] = null; // Like erasing these elements for backtracking
             return;
         }
+
         level++;
+
         printPath(root.left, level, path);
         printPath(root.right, level, path);
     }

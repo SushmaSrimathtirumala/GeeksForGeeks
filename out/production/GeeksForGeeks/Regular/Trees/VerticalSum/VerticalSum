@@ -1,3 +1,5 @@
+http://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/
+
 Given a Binary Tree, find vertical sum of the nodes that are in same vertical line. Print all sums through different vertical lines.
 
 Examples:

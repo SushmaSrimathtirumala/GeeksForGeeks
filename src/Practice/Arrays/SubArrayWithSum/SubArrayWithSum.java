@@ -28,6 +28,8 @@ public class SubArrayWithSum {
         // after all the digits are over.
         for (int i = 1; i <= len; i++) {
             // Trim from start till curSum falls below sum. start < i - 1 is to avoid trimming from empty list
+            // Although this is unsorted, trimming from start coz, the including indices from start till here anyway
+            // couldn't make them sum, so excluding them.
             while (curSum > sum && start < i - 1) {
                 curSum -= arr[start];
                 start++;
@@ -56,8 +58,8 @@ public class SubArrayWithSum {
         for (int i = 1; i < len; i++) {
             curSum += arr[i];
             if (map.get(curSum - sum) != null) {
-                // Found subArray from 0 to some point which can make curSum - sum, so subarray from that point to current 
-                // point shall make sum.
+                // Found subArray from 0 to some point which can make curSum - sum, since it's curSum now, we crossed a point
+                // curSum-sum and from that point to current point shall make sum.
                 foundFlag = true;
                 System.out.println((map.get(curSum - sum) + 2) + " " + i+1); // Print 1-based indices
                 break;

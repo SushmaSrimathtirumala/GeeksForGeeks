@@ -11,7 +11,7 @@ public class KSwapsMaxNum {
         System.out.println(findMaxAfterKSwaps(str1, swaps, Integer.valueOf(str1)));
         System.out.println(findMaxAfterKSwaps(str2, swaps, Integer.valueOf(str2)));
     }
-    
+
     private static int findMaxAfterKSwaps(String str, int swaps, int max) {
         // Base Condition
         if (swaps > 0 && !isDigitsDescendingSorted(max)) {
@@ -26,7 +26,7 @@ public class KSwapsMaxNum {
                         // isValid Condition-2
                         if (Integer.valueOf(str) > max) {
                             max = findMaxAfterKSwaps(str, swaps - 1, Integer.valueOf(str));
-                            if(isDigitsDescendingSorted(max)) { // We can stop when all digits are in descending 
+                            if (isDigitsDescendingSorted(max)) { // We can stop when all digits are in descending
                                 // order coz that is the max num possible with those set of digits
                                 return max;
                             }
@@ -42,11 +42,11 @@ public class KSwapsMaxNum {
     }
 
     private static boolean isDigitsDescendingSorted(int num) {
-        int digit1 = num%10;
-        while(num > 10) {
-            num/=10;
-            int digit2 = num%10;
-            if(digit2 < digit1) {
+        int digit1 = num % 10;
+        while (num > 10) {
+            num /= 10;
+            int digit2 = num % 10;
+            if (digit2 < digit1) {
                 return false;
             }
             digit1 = digit2;

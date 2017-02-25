@@ -2,6 +2,8 @@ package Practice.Arrays.LongestConsecutiveSubsequence;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Created by gakshintala on 6/20/16.
@@ -14,8 +16,23 @@ public class LongestConsecutiveSubsequence {
             int len = scn.nextInt();
             int[] arr = new int[len];
             fillArray(arr, scn);
-            System.out.println(longestConsecutiveSubsequence(arr));
+            System.out.println(longestConsecutiveSubsequenceOptimistic(arr));
         }
+    }
+
+    private static int longestConsecutiveSubsequenceOptimistic(int[] arr) {
+        Set<Integer> set = Arrays.stream(arr).boxed().collect(Collectors.toSet());
+        int maxSubsequenceLen = 0;
+        for (int ele : arr) {
+            if (!set.contains(ele - 1)) {
+                int j = ele;
+                while (set.contains(j)) {
+                    j++;
+                }
+                maxSubsequenceLen = Math.max(maxSubsequenceLen, j - ele);
+            }
+        }
+        return maxSubsequenceLen;
     }
 
     private static int longestConsecutiveSubsequence(int[] arr) {

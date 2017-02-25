@@ -25,7 +25,7 @@ public class NQueen {
     private static boolean solveNQueen(int[][] board, int col) {
         if (col >= 4)
             return true;
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) { // For every row
             if (isSafe(board, i, col)) {
                 board[i][col] = 1;
                 // Regular.BackTracking
