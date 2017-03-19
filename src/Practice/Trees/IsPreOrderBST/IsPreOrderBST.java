@@ -22,6 +22,8 @@ public class IsPreOrderBST {
         Stack<Integer> stk = new Stack<>();
         int root = Integer.MIN_VALUE;
         for (int ele : preArr) {
+            // First left tree will be checked with MIN_VALUE, then once right tree is encountered rest of the nodes are
+            // checked against the root.
             if (ele < root) { // root remains to be the previous root, until a greater element is found
                 return false;
             }

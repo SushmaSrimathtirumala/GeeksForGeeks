@@ -10,7 +10,7 @@ import java.util.Map;
  * Created by gakshintala on 6/15/16.
  */
 public class LRUCache {
-    static LRUQueue lruQueue = new LRUQueue();
+    private static LRUQueue lruQueue = new LRUQueue();
 
     public static void main(String[] args) {
         LRUCache lruCache = new LRUCache();
@@ -26,7 +26,7 @@ public class LRUCache {
         Utils.printDLL(lruQueue.front);
     }
 
-    public void referPage(int pageNo) {
+    private void referPage(int pageNo) {
         // Motto is not to have faster refers for recently used cache, but to remove least recently used cache.
         // So HashMap is always referred.
         DLLNode node = lruQueue.getNodeForPage(pageNo);
@@ -38,7 +38,7 @@ public class LRUCache {
             node.prev.next = node.next;
             if (node == lruQueue.rear) { // If node is rear, adjust the queue rear
                 lruQueue.rear = node.prev;
-            } else { // If not, connect its next to prev
+            } else { // If not, cut it by connecting its next to prev
                 node.next.prev = node.prev;
             }
 
@@ -57,7 +57,7 @@ class LRUQueue {
     private int count = 0;
     private Map<Integer, DLLNode> pageToNodeMap = new HashMap<>();
 
-    public void enqueue(int pageNo, DLLNode node) {
+    void enqueue(int pageNo, DLLNode node) {
         // If queue is full, dequeue rear.
         if (isQueueFull()) {
             dequeue();
@@ -75,7 +75,7 @@ class LRUQueue {
         count++;
     }
 
-    public void dequeue() {
+    private void dequeue() {
         if (rear != null) {
             rear = rear.prev;
             rear.next = null;

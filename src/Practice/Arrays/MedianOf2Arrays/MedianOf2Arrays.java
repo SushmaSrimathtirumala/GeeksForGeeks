@@ -1,4 +1,4 @@
-package Practice.Arrays.Medianof2Arrays;
+package Practice.Arrays.MedianOf2Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by gakshintala on 7/2/16.
  */
-public class Medianof2Arrays {
+public class MedianOf2Arrays {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int tests = scn.nextInt();
@@ -38,17 +38,17 @@ public class Medianof2Arrays {
         if (m1 == m2) {
             return m1;
         }
-        // If we merge Median is dragged towards left for arr1 and right for arr2
-        if (m1 > m2) {
+
+        if (m1 > m2) { // If we merge, Median is dragged towards left for arr1 and right for arr2
             if (len % 2 == 0) {
                 return medianOf2Arrays(Arrays.copyOfRange(arr1, 0, len / 2 + 1), Arrays.copyOfRange(arr2, len / 2 - 1, len));
             }
-            return medianOf2Arrays(Arrays.copyOfRange(arr1, 0, len / 2 + 1), Arrays.copyOfRange(arr2, len / 2, len));
+            return medianOf2Arrays(Arrays.copyOfRange(arr1, 0, len / 2), Arrays.copyOfRange(arr2, len / 2, len));
         } else {
             if (len % 2 == 0) {
                 return medianOf2Arrays(Arrays.copyOfRange(arr2, 0, len / 2 + 1), Arrays.copyOfRange(arr1, len / 2 - 1, len));
             }
-            return medianOf2Arrays(Arrays.copyOfRange(arr2, 0, len / 2 + 1), Arrays.copyOfRange(arr1, len / 2, len));
+            return medianOf2Arrays(Arrays.copyOfRange(arr2, 0, len / 2), Arrays.copyOfRange(arr1, len / 2, len));
         }
 
     }

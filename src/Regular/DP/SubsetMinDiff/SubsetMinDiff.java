@@ -20,13 +20,14 @@ public class SubsetMinDiff {
         for (int i = 0; i <= len; i++) {
             table[0][i] = true;
         }
-        for (int i = 1; i <= sum; i++) {
+        // This can be omitted as array is by default initialized to false.
+        /*for (int i = 1; i <= sum; i++) {
             table[i][0] = false;
-        }
+        }*/
 
         for (int i = 1; i <= sum; i++) {
             for (int j = 1; j <= len; j++) {
-                table[i][j] = table[i][j - 1];
+                table[i][j] = table[i][j - 1]; // Exclude
                 if (arr[j - 1] <= i) {
                     table[i][j] |= table[i - arr[j - 1]][j];
                 }

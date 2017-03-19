@@ -1,11 +1,11 @@
-package Practice.SortAndSearch.SearchInRotatedArray;
+package Practice.SortAndSearch.SearchInSortedRotated;
 
 import java.util.Scanner;
 
 /**
  * Created by Gopala Akshintala on 22/02/17.
  */
-public class SearchInRotatedArray {
+public class SearchInSortedRotated {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int tests = scn.nextInt();

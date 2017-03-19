@@ -41,5 +41,5 @@ public class TreeDiameter {
 }
 
 class Height {
-    public int height = 0;
+    int height = 0;
 }

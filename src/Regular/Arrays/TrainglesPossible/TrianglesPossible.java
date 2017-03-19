@@ -25,7 +25,7 @@ public class TrianglesPossible {
                 while (k < len && arr[i] + arr[j] > arr[k]) {
                     k++;
                 } // All values till which this condition is satisfied can be used along with i,j to form a triangle
-                // Since this is a sorted array, any 3 values between i to k-1 would satisfy the condition a+b>c
+                // Since this is a sorted array, with i, any 2 values between j to k-1 would satisfy the condition a+b>c
                 count += k - 1 - j; // k-1 coz last case where the loop broke should be discarded
             }
         }

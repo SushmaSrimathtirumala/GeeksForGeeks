@@ -35,7 +35,6 @@ public class FindDuplicates {
 
     }
 
-
     // These methods are useful when you need how many times each one is repeated
     private static void printInAscendingOrder(int[] arr, int len) {
         for (int i = 0; i < len; i++) {

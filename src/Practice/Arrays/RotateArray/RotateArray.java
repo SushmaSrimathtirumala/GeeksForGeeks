@@ -39,7 +39,7 @@ public class RotateArray {
     private static void printArr(int[] arr) {
         StringBuilder strb = new StringBuilder();
         for (int e : arr) {
-            strb.append(e + " ");
+            strb.append(e).append(" ");
         }
         System.out.println(strb);
     }

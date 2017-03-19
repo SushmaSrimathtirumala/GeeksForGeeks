@@ -61,7 +61,7 @@ public class SubArrayWithSum {
                 // Found subArray from 0 to some point which can make curSum - sum, since it's curSum now, we crossed a point
                 // curSum-sum and from that point to current point shall make sum.
                 foundFlag = true;
-                System.out.println((map.get(curSum - sum) + 2) + " " + i+1); // Print 1-based indices
+                System.out.println((map.get(curSum - sum) + 2) + " " + i + 1); // Print 1-based indices
                 break;
             }
             map.put(curSum, i);

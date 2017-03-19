@@ -10,8 +10,12 @@ public class SortIfSubStringReversed {
     }
 
     private static boolean sortIfSubStringReversed(int[] arr) {
-        int i = 1;
         int len = arr.length;
+        if (len == 1) {
+            return true;
+        }
+
+        int i = 1;
         while (i < len && arr[i] > arr[i - 1]) {
             i++;
         }
@@ -21,7 +25,7 @@ public class SortIfSubStringReversed {
 
         int j = i;
         while (j < len && arr[j] < arr[j - 1]) {
-            if (i > 1 && arr[j] < arr[i - 2]) {
+            if (i > 1 && arr[j] < arr[i - 2]) { // i stops at one position after the anomaly as anomaly also satisfies the condition arr[i] > arr[i - 1]
                 return false;
             }
             j++;
@@ -31,6 +35,11 @@ public class SortIfSubStringReversed {
         }
 
         int k = j;
+
+        if (arr[k] < arr[i - 1]) {
+            return false;
+        }
+
         while (k < len && k > 1) {
             if (arr[k] < arr[k - 1]) {
                 return false;

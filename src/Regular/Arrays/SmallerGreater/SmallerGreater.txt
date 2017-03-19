@@ -1,4 +1,5 @@
-Given an array, find an element before which all elements are smaller than it, and after which all are greater than it. Return index of the element if there is such an element, otherwise return -1.
+Given an array, find an element before which all elements are smaller than it, and after which all are greater than it.
+Return index of the element if there is such an element, otherwise return -1.
 
 Examples:
 

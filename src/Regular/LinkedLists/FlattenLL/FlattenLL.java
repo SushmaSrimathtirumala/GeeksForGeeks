@@ -54,7 +54,7 @@ public class FlattenLL {
         return resultNode;
     }
 
-    public static void printSLL(SLLNode head) {
+    private static void printSLL(SLLNode head) {
         while (head != null) {
             System.out.print(head + " -> ");
             head = head.down;

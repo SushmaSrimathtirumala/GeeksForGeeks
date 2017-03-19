@@ -9,16 +9,16 @@ import java.util.List;
 public class EvenOccurrence {
     public static void main(String[] args) {
         int arr[] = { 9, 12, 23, 10, 12, 12, 15, 23, 14, 12, 15 };
-        System.out.println(evenOccuranceNum(arr));
+        System.out.println(evenOccurrence(arr));
     }
 
-    private static List<Integer> evenOccuranceNum(int[] arr) {
+    private static List<Integer> evenOccurrence(int[] arr) {
         int len = arr.length;
         int checker = 0;
         
         // Prepare bit map for even odd occurrences. Even shall have 0 and odd have 1. 
-        for(int i=0; i<len; i++) {
-            checker ^= (1 << arr[i]);
+        for (int ele : arr) {
+            checker ^= (1 << ele);
         }
         
         List<Integer> evenOccurances = new ArrayList<>();

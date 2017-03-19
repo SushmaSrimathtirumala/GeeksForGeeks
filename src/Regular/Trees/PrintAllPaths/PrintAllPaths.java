@@ -22,6 +22,7 @@ public class PrintAllPaths {
         printPath(treeNode1, 0, path);
     }
 
+    // Pre-order traversal
     private static void printPath(TreeNode root, int level, TreeNode[] path) {
         path[level] = root;
 

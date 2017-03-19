@@ -12,8 +12,8 @@ public class SmallerGreater {
     private static int findIndex(int[] arr) {
         int len = arr.length;
         int[] leftMax = fillLeftMax(arr, len);
-        int rightMin = arr[len - 1];
 
+        int rightMin = arr[len - 1];
         for (int i = len - 2; i >= 0; i--) { // Traversing right to left tracking rightMin and using leftMax array.
             rightMin = Math.min(arr[i + 1], rightMin);
             if (arr[i] < rightMin && arr[i] > leftMax[i]) {

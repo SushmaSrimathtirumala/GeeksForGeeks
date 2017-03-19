@@ -2,7 +2,8 @@ http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space
 http://www.practice.geeksforgeeks.org/problem-page.php?pid=700437
 
 Duplicates in an array in O(n) and by using O(1) extra space | Set-2
-Given an array of n elements which contains elements from 0 to n-1, with any of these numbers appearing any number of times. Find these repeating numbers in O(n) and using only constant memory space.
+Given an array of n elements which contains elements from 0 to n-1, with any of these numbers appearing any number of times. 
+Find these repeating numbers in O(n) and using only constant memory space.
 
 For example, let n be 7 and array be {1, 2, 3, 1, 3, 6, 6}, the answer should be 1, 3 and 6.
 We have discussed an approach for this question in below post:

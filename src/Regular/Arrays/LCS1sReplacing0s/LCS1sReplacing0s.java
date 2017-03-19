@@ -13,21 +13,25 @@ public class LCS1sReplacing0s {
 
     private static int[] findMax1s(int[] arr) {
         int len = arr.length;
-        int prev, currentStartingIndex;
-        prev = currentStartingIndex = 0;
+        int prev_prev_zero, prev_zero;
+        prev_prev_zero = prev_zero = -1;
         int max = 0, maxIndex = 0;
 
-        for (int i = 0; i < len; i++) {
-            if (arr[i] == 0 || i == len - 1) {
-                int maxCurr = i - 1 - prev;
+        for (int cur = 0; cur < len; cur++) {
+            if (arr[cur] == 0) {
+                int maxCurr = cur - prev_prev_zero;
                 if (maxCurr > max) {
                     max = maxCurr;
-                    maxIndex = currentStartingIndex;
+                    maxIndex = prev_zero;
                 }
-                prev = currentStartingIndex;
-                currentStartingIndex = i;
+                prev_prev_zero = prev_zero;
+                prev_zero = cur;
             }
         }
+
+        if (len - prev_prev_zero > max)
+            maxIndex = prev_zero;
+
         return new int[]{maxIndex, max};
     }
 }

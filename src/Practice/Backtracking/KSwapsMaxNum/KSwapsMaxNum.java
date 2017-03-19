@@ -1,51 +1,58 @@
-package Regular.BackTracking.KSwapsMaxNum;
+package Practice.Backtracking.KSwapsMaxNum;
+
+import java.util.Scanner;
 
 /**
  * Created by gakshintala on 6/27/16.
  */
 public class KSwapsMaxNum {
     public static void main(String[] args) {
-        String str1 = "129814999";
-        String str2 = "7899";
-        int swaps = 4;
-        System.out.println(findMaxAfterKSwaps(str1, swaps, Integer.valueOf(str1)));
-        System.out.println(findMaxAfterKSwaps(str2, swaps, Integer.valueOf(str2)));
+        Scanner scn = new Scanner(System.in);
+        int tests = scn.nextInt();
+        while (tests-- > 0) {
+            int swaps = scn.nextInt();
+            String str = scn.next();
+            System.out.println(findMaxAfterKSwaps(str, swaps, Long.parseLong(str)));
+        }
     }
 
-    private static int findMaxAfterKSwaps(String str, int swaps, int max) {
+    // Simply swapping the highest to left-end won't work.
+    // Ex: 7899 for 2 swaps -> 9879 -> 9978. But real answer is 9987
+    private static long findMaxAfterKSwaps(String str, int swaps, long max) {
         // Base Condition
         if (swaps > 0 && !isDigitsDescendingSorted(max)) {
             int len = str.length();
             // Loop, Checking combinations by swapping every char with the every greater char following it.
             for (int i = 0; i < len - 1; i++) {
                 for (int j = i + 1; j < len; j++) {
-                    // isValid Condition-1
+
+                    // isValid Condition
                     if (str.charAt(i) < str.charAt(j)) {
                         str = swap(str, i, j);
-                        System.out.println(str);
-                        // isValid Condition-2
-                        if (Integer.valueOf(str) > max) {
-                            max = findMaxAfterKSwaps(str, swaps - 1, Integer.valueOf(str));
+
+                        long curVal = Long.parseLong(str);
+                        if (curVal > max) {
+                            max = curVal;
                             if (isDigitsDescendingSorted(max)) { // We can stop when all digits are in descending
                                 // order coz that is the max num possible with those set of digits
                                 return max;
                             }
                         }
+
+                        max = findMaxAfterKSwaps(str, swaps - 1, max);
+                        str = swap(str, i, j); // Backtracking
                     }
-                    // Backtracking is auto, as swaps retains its original value.
                 }
             }
         }
-        // Simply swapping the highest to left-end won't work. 
-        // Ex: 7899 for 2 swaps -> 9879 -> 9978. But real answer is 9987 
         return max;
     }
 
-    private static boolean isDigitsDescendingSorted(int num) {
-        int digit1 = num % 10;
+    private static boolean isDigitsDescendingSorted(long num) {
+        int digit1 = (int) (num % 10);
         while (num > 10) {
             num /= 10;
-            int digit2 = num % 10;
+            int digit2 = (int) (num % 10);
             if (digit2 < digit1) {
                 return false;
             }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TicTacToe {
     // This matrix is used to find indexes to check all
     // possible wining triplets in board[0..8]
-    static int WIN[][] = {{0, 1, 2}, // Check first row.
+    private static int WIN[][] = {{0, 1, 2}, // Check first row.
             {3, 4, 5}, // Check second Row
             {6, 7, 8}, // Check third Row
             {0, 3, 6}, // Check first column

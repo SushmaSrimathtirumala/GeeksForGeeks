@@ -17,18 +17,18 @@ public class KthLargestElement {
         TreeNode bstNode2 = new TreeNode(2, bstNode1, bstNode3);
         TreeNode bstNode4 = new TreeNode(4, bstNode2, bstNode6);
 
-        printKthLargestElement(bstNode4);
+        reverseInorderTraversal(bstNode4);
     }
 
-    private static void printKthLargestElement(TreeNode root) {
+    private static void reverseInorderTraversal(TreeNode root) {
         if (root == null || k <= 0) return;
 
-        printKthLargestElement(root.right);
+        reverseInorderTraversal(root.right);
         k--;
         if (k == 0) {
             System.out.println(root.val);
             return;
         }
-        printKthLargestElement(root.left);
+        reverseInorderTraversal(root.left);
     }
 }

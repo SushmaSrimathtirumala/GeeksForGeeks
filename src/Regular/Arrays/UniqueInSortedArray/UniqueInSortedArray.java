@@ -23,7 +23,7 @@ public class UniqueInSortedArray {
 
         if (mid % 2 == 0) { // If mid even, means we landed on an odd position
             if (arr[mid] == arr[mid + 1]) { // If this condition satisfies in odd position, left part is clear, so 
-                // sear right side 
+                // search right side
                 searchUnique(arr, mid + 2, high);
             } else {
                 searchUnique(arr, low, mid);

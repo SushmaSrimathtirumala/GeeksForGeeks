@@ -17,7 +17,7 @@ public class CoinCombinationsForSum {
         for (int coin : coins) {
             // If you include this coin, minimum sum u make starts from that coin
             for (int j = coin; j <= sum; j++) {
-                table[j] += table[j - coin];
+                table[j] += table[j - coin]; // including the coin
             }
         }
         return table[sum];

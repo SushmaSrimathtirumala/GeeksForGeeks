@@ -1,9 +1,9 @@
-package Regular.DP.CommonSubSequence;
+package Regular.DP.LongestCommonSubSequence;
 
 /**
  * Created by gakshintala on 6/11/16.
  */
-public class CommonSubSequence {
+public class LongestCommonSubSequence {
     public static void main(String[] args) {
         String a = "AGGTAB";
         String b = "GXTXAYB";

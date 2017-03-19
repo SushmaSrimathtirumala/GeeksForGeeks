@@ -17,23 +17,6 @@ public class BSTFromPreOrder {
         treeInorder(bstFromPreOrderIterative(pre));
     }
 
-    private static TreeNode bstFromPreOrderRecursive(int[] pre, int minValue, int maxValue, Index index) {
-        if (index.index < pre.length) {
-            int val = pre[index.index];
-            // Recursive calls are made for left right, only in the valid call where val falls in range
-            if (val >= minValue && val < maxValue) {
-                TreeNode root = new TreeNode(val);
-                // This index takes the array traversal forward, array goes forward only if the val falls in range 
-                // The index values stays common through all recursions.
-                index.index++;
-                root.left = bstFromPreOrderRecursive(pre, minValue, val, index);
-                root.right = bstFromPreOrderRecursive(pre, val, maxValue, index);
-                return root;
-            }
-        }
-        return null;
-    }
-
     private static TreeNode bstFromPreOrderIterative(int[] pre) {
         Stack<TreeNode> stk = new Stack<>();
         TreeNode root = new TreeNode(pre[0]);
@@ -44,7 +27,7 @@ public class BSTFromPreOrder {
             // Left nodes are made as and when a lesser is about to be pushed
             if (pre[i] < stk.peek().val) {
                 stk.peek().left = node;
-            } else { // right nodes are made if a value greater than current peek found. we need to pop till we find 
+            } else { // right nodes are made if a value greater than current peek found. we need to pop till we find
                 // its root to attach it as right child
                 while (!stk.isEmpty() && pre[i] > stk.peek().val) {
                     nextRoot = stk.pop();
@@ -54,6 +37,23 @@ public class BSTFromPreOrder {
             stk.push(node);
         }
         return root;
+    }
+
+    private static TreeNode bstFromPreOrderRecursive(int[] pre, int minValue, int maxValue, Index index) {
+        if (index.index < pre.length) {
+            int val = pre[index.index];
+            // Recursive calls are made for left right, only in the valid call where val falls in range
+            if (val >= minValue && val < maxValue) {
+                TreeNode root = new TreeNode(val);
+                // This index takes the array traversal forward, array goes forward only if the val falls in range
+                // The index values stays common through all recursions.
+                index.index++;
+                root.left = bstFromPreOrderRecursive(pre, minValue, val, index);
+                root.right = bstFromPreOrderRecursive(pre, val, maxValue, index);
+                return root;
+            }
+        }
+        return null;
     }
 }
 

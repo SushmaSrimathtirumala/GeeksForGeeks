@@ -54,7 +54,7 @@ public class SwappedNodes {
                 return refs;
             }
         }
-        parent = root;
+        parent = root; // For root.left there is backing out, but not for root.right so we send current root as parent.
         correctSwappedNodes(root.right, parent, refs);
         return refs;
     }

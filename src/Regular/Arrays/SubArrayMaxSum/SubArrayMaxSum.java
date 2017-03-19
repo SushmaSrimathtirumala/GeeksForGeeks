@@ -87,7 +87,7 @@ public class SubArrayMaxSum {
 class Subarray {
     public int start;
     public int end;
-    public int maxSum;
+    int maxSum;
 
     public Subarray(int start, int end, int maxSum) {
         this.start = start;
