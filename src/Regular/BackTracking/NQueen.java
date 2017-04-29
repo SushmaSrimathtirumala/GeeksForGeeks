@@ -10,8 +10,7 @@ public class NQueen {
         int board[][] = {{0, 0, 0, 0},
                 {0, 0, 0, 0},
                 {0, 0, 0, 0},
-                {0, 0, 0, 0}
-        };
+                {0, 0, 0, 0}};
 
         if (solveNQueen(board, 0)) {
             for (int[] arr : board) {

@@ -24,15 +24,15 @@ public class RatMaze {
     }
 
     private static boolean solveMaze(int[][] maze, int i, int j, boolean[][] visited) {
-        boolean isSolved = false;
         if (i == 3 && j == 3) return true; // Checking base case that Rat reached end
         if (isValidMove(i, j, maze)) {
             visited[i][j] = true;
-            isSolved = solveMaze(maze, i + 1, j, visited) || solveMaze(maze, i, j + 1, visited);
-            visited[i][j] = isSolved; // Backtracking, it will go to parent call and trigger the next recursive call 
-            // after OR. If both are done, they shall go to their parent and so on
+            if(solveMaze(maze, i + 1, j, visited) || solveMaze(maze, i, j + 1, visited)) {
+                return true;
+            }
+            visited[i][j] = false; // Backtracking
         }
-        return isSolved;
+        return false;
     }
 
     private static boolean isValidMove(int i, int j, int[][] maze) {

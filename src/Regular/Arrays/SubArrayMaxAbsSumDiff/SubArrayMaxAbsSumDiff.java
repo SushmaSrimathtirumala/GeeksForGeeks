@@ -10,11 +10,11 @@ public class SubArrayMaxAbsSumDiff {
     }
 
     private static int maxAbsSumDiff(int[] a) {
-        int[] leftMin = constructLeftMin(a);
-        int[] rightMin = constructRightMin(a);
+        int[] leftMin = constructLeftMinSum(a);
+        int[] rightMin = constructRightMinSum(a);
         // Constructing leftMin on array with inverse sign gives leftMax with inverse sign, invert it again.
-        int[] leftMax = invertSign(constructLeftMin(invertSign(a)));
-        int[] rightMax = invertSign(constructRightMin(invertSign(a)));
+        int[] leftMax = invertSign(constructLeftMinSum(invertSign(a)));
+        int[] rightMax = invertSign(constructRightMinSum(invertSign(a)));
         int len = a.length;
         int maxDiff = Integer.MIN_VALUE;
         // Max diff can be found by difference between min on one side and max on another.
@@ -33,7 +33,7 @@ public class SubArrayMaxAbsSumDiff {
         return inverse;
     }
 
-    private static int[] constructRightMin(int[] a) {
+    private static int[] constructRightMinSum(int[] a) {
         int len = a.length;
         int[] rightMin = new int[len];
         int curSum = a[len - 1], minSum = a[len - 1];
@@ -46,7 +46,7 @@ public class SubArrayMaxAbsSumDiff {
         return rightMin;
     }
 
-    private static int[] constructLeftMin(int[] a) {
+    private static int[] constructLeftMinSum(int[] a) {
         int len = a.length;
         int[] leftMin = new int[len];
         int curSum = a[0], minSum = a[0];

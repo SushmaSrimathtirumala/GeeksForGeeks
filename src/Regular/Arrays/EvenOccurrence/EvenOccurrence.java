@@ -21,16 +21,16 @@ public class EvenOccurrence {
             checker ^= (1 << ele);
         }
         
-        List<Integer> evenOccurances = new ArrayList<>();
+        List<Integer> evenOccurrences = new ArrayList<>();
         
         // Traverse again to check which number has 0 and which has 1.
         for(int i=0; i<len-1; i++) {
             if((checker & (1 << arr[i])) == 0) {
-                evenOccurances.add(arr[i]);
+                evenOccurrences.add(arr[i]);
             }
             // Setting it to 1 to avoid duplicates
             checker |= (1 << arr[i]);
         }
-        return evenOccurances;
+        return evenOccurrences;
     }
 }

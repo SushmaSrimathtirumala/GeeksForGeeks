@@ -14,7 +14,8 @@ Output: 16
 Two subarrays are [-1, -2, 1, -4] and [2, 8] 
 Expected time complexity is O(n).
 
-The idea is for each index i in given array arr[0…n-1], compute maximum and minimum sum subarrays that lie in subarrays arr[0…i] and arr[i+1 …n-1]. We maintain four arrays that store the maximum and minimum sums in the subarrays arr[0…i] and arr[i+1 … n-1] for every index i in the array.
+The idea is for each index i in given array arr[0…n-1], compute maximum and minimum sum subarrays that lie in subarrays arr[0…i] and arr[i+1 …n-1].
+We maintain four arrays that store the maximum and minimum sums in the subarrays arr[0…i] and arr[i+1 … n-1] for every index i in the array.
 
 leftMax[] : An element leftMax[i] of this 
             array stores the maximum value 

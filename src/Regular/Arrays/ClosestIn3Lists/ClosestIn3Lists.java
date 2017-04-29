@@ -16,6 +16,7 @@ public class ClosestIn3Lists {
         int i = 0, j = 0, k = 0;
         int diff = Integer.MAX_VALUE;
         int aResult = a[0], bResult = b[0], cResult = c[0];
+        // If one of the list spills over the end, ignore the other lists as the elements as all of them must be less closer.
         while (i < a.length && j < b.length && k < c.length) {
             // A set of number is Closest when the diff between their min and max is minimum
             int minOf3 = Math.min(a[i], Math.min(b[j], c[k]));

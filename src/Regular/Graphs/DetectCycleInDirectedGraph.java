@@ -12,7 +12,7 @@ public class DetectCycleInDirectedGraph {
     private static boolean[] visited; // visited - used to prevent running into nodes that are already visited
     private static boolean[] hasCycle; // hasCycle - used to nodes that are hasCycle and they are set to false if all the nodes
     // going away from this are check for hasCycle and is clear without cycle
-    static DiGraph g;
+    private static DiGraph g;
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
