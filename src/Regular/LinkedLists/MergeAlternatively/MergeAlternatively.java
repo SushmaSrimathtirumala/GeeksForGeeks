@@ -27,7 +27,7 @@ public class MergeAlternatively {
     private static void mergeAlternatively(SLLNode k, SLLNode l) {
         SLLNode kNext, lNext;
         while (l != null && k != null) {
-            // Save next pointers
+            // Save nextRight pointers
             kNext = k.next;
             lNext = l.next;
 
@@ -35,7 +35,7 @@ public class MergeAlternatively {
             k.next = l;
             l.next = kNext;
 
-            // Move to corresponding next nodes in list
+            // Move to corresponding nextRight nodes in list
             k = kNext;
             l = lNext;
         }

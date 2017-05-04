@@ -38,7 +38,7 @@ public class LRUCache {
             node.prev.next = node.next;
             if (node == lruQueue.rear) { // If node is rear, adjust the queue rear
                 lruQueue.rear = node.prev;
-            } else { // If not, cut it by connecting its next to prev
+            } else { // If not, cut it by connecting its nextRight to prev
                 node.next.prev = node.prev;
             }
 

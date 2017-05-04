@@ -27,7 +27,7 @@ public class PairCountWithDiff {
             int diff = arr[r] - arr[l];
             if (diff == diffReq) {
                 // Uncomment below and comment rest in this block, if distinct pairs are required. Also need a bit 
-                // more work to check if next combo after increment is same or different
+                // more work to check if nextRight combo after increment is same or different
                 /*count++
                 r++;l++; */
 
@@ -41,9 +41,9 @@ public class PairCountWithDiff {
                 while (r < len && arr[r - 1] == arr[r]) {
                     r++;
                 }
-                count += ((l - tempL) * (r - tempR));
+                count += ((l - tempL) * (r - tempR)); // Pairs with all duplicates
             } else if (diff > diffReq) {
-                l++; // Even if l=r, it will be taken care in next iteration under diff<diffReq case
+                l++; // Even if l=r, it will be taken care in nextRight iteration under diff<diffReq case
             } else {
                 r++;
             }

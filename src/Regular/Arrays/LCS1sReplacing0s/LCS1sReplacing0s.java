@@ -29,8 +29,10 @@ public class LCS1sReplacing0s {
             }
         }
 
-        if (len - prev_prev_zero > max)
+        if (len - prev_prev_zero > max) {
+            max = len - prev_prev_zero;
             maxIndex = prev_zero;
+        }
 
         return new int[]{maxIndex, max};
     }

@@ -30,7 +30,7 @@ public class CoinGame {
                 int y = (i + 1 < j - 1) ? table[i + 1][j - 1] : 0;
                 int z = (i < j - 2) ? table[i][j - 2] : 0;
 
-                // If you pick ith coin, the other users picks a coin making your next pick be minimum of two 
+                // If you pick ith coin, the other users picks a coin making your nextRight pick be minimum of two
                 // possibilities i.e., if he picks i+1, we are left with i+2, j. If he picks j, we are left with i+1,
                 // j-1. Similarly, if we pick jth coin.
                 table[i][j] = Math.max(arr[i] + Math.min(x, y), arr[j] + Math.min(y, z));

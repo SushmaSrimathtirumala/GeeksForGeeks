@@ -20,11 +20,12 @@ public class CountFrequencies {
 
     private static void printFrequency(int[] arr) {
         int len = arr.length;
-        // This is necessary or the element which is equal to len will make problem while doing arr[i]/len
+        // This is necessary or the element which is equal to len will make problem while doing arr[i]%len
         for (int i = 0; i < len; i++) {
             arr[i]--;
         }
         for (int i = 0; i < len; i++) {
+            // arr[i]%len because arr[i] might increase from it's actual value due to these increments, so we need to get actual value
             arr[arr[i] % len] += len;
         }
         for (int freq : arr) {

@@ -1,5 +1,7 @@
 package DsAndUtils;
 
+import java.util.Arrays;
+
 /**
  * Created by gakshintala on 6/10/16.
  */
@@ -19,19 +21,32 @@ public class Utils {
         int right = pivotPos - 1;
         int left = low;
         while (left < right) {
-            while (left <= pivotPos && arr[left] < arr[pivotPos]) left++; // Note the <= in left<=pivotPos
+            // Note the <= in left<=right, this is because we are using left to swap at the end
+            // Let's say if pivot is the largest element, then left should go till pivotPos so it swaps itself
+            while (left <= right && arr[left] < arr[pivotPos]) left++;
             while (right > low && arr[right] > arr[pivotPos]) right--;
-            if (left < right) swap(arr, left, right);
+            if (left < right) {
+                swap(arr, left, right);
+            }
         }
         swap(arr, left, pivotPos);
         return left;
     }
 
     public static void swap(int[] arr, int pos1, int pos2) {
-        if (pos1 == pos2) return;
+        if (pos1 == pos2) {
+            return;
+        }
+        if (isPosInvalid(pos1, arr) || isPosInvalid(pos2, arr)) {
+            throw new IllegalArgumentException("Invalid Position to Swap");
+        }
         int temp = arr[pos1];
         arr[pos1] = arr[pos2];
         arr[pos2] = temp;
+    }
+
+    private static boolean isPosInvalid(int pos, int[] arr) {
+        return (pos <= 0 || pos >= arr.length);
     }
 
     public static void printTreeInorder(TreeNode root) {
@@ -43,7 +58,7 @@ public class Utils {
 
     public static void printSLL(SLLNode head) {
         while (head != null) {
-            System.out.print(head + " -> ");
+            System.out.print(head + " ");
             head = head.next;
         }
     }
@@ -76,4 +91,56 @@ public class Utils {
         System.out.print(root + " ");
         treeInorder(root.right);
     }
+
+    public static SLLNode constructLL(int... vals) {
+        int len = vals.length;
+        if (len == 0) {
+            return null;
+        }
+        SLLNode sllNode = new SLLNode(vals[0]);
+        for (int i = 1; i < len; i++) {
+            sllNode.next = new SLLNode(vals[i]);
+            sllNode = sllNode.next;
+        }
+        return sllNode;
+    }
+
+    public static int binarySearch(int[] arr, int searchNum) {
+        return binarySearch(arr, searchNum, 0, arr.length - 1) + 1;
+    }
+
+    private static int binarySearch(int[] arr, int searchNum, int low, int high) {
+        if (low <= high) {
+            int mid = (low + high) / 2;
+            if (arr[mid] == searchNum) {
+                return mid;
+            }
+            if (arr[mid] < searchNum) {
+                return binarySearch(arr, searchNum, mid + 1, high);
+            }
+            return binarySearch(arr, searchNum, low, mid - 1);
+        }
+        return -1;
+    }
+
+    public static void printArray(int[] arr) {
+        Arrays.stream(arr).forEach(val -> System.out.print(val + " "));
+    }
+
+    public static void insertNodeIntoTree(TreeNode root, int key) {
+        if (key < root.val) {
+            if (root.left != null) {
+                insertNodeIntoTree(root.left, key);
+            } else {
+                root.left = new TreeNode(key);
+            }
+        } else if (key > root.val) {
+            if (root.right != null) {
+                insertNodeIntoTree(root.right, key);
+            } else {
+                root.right = new TreeNode(key);
+            }
+        }
+    }
+
 }

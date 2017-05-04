@@ -10,16 +10,17 @@ public class LinearEquation {
         System.out.println(solutionCount(coeffs, rhs));
     }
 
-    private static int solutionCount(int[] coeffs, int rhs) {
-        int len = coeffs.length;
+    private static int solutionCount(int[] coefficients, int rhs) {
+        int len = coefficients.length;
         int[] table = new int[rhs + 1];
         table[0] = 1; // if rhs=0, 1 solution i.e., all vals are 0s
-        // Same as Coin Change problem
-        // Per Coeff
-        for (int coeff : coeffs) {
+        // Same as Coin Change problem, where we innumerable supply of coins,
+        // we can have any value x and y, so any number of times of coefficients
+        // Per coefficient
+        for (int coefficient : coefficients) {
             // Looping through all possible vals till rhs
-            for (int j = coeff; j <= rhs; j++) {
-                table[j] += table[j - coeff];
+            for (int j = coefficient; j <= rhs; j++) {
+                table[j] += table[j - coefficient];
             }
         }
         return table[rhs];

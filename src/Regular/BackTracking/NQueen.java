@@ -22,8 +22,9 @@ public class NQueen {
     }
 
     private static boolean solveNQueen(int[][] board, int col) {
-        if (col >= 4)
+        if (col >= 4) {
             return true;
+        }
         for (int i = 0; i < 4; i++) { // For every row
             if (isSafe(board, i, col)) {
                 board[i][col] = 1;
@@ -39,7 +40,7 @@ public class NQueen {
     }
 
     private static boolean isSafe(int[][] board, int i, int j) {
-        return isNotInRow(board, i, j) && isNotInColumn(board, i, j) && isNotInDiagnalBehind(board, i, j);
+        return isNotInRow(board, i, j) && isNotInColumn(board, i, j) && isNotInDiagonalBehind(board, i, j);
     }
 
     private static boolean isNotInRow(int[][] board, int row, int col) {
@@ -60,7 +61,7 @@ public class NQueen {
         return true;
     }
 
-    private static boolean isNotInDiagnalBehind(int[][] board, int row, int col) {
+    private static boolean isNotInDiagonalBehind(int[][] board, int row, int col) {
         for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
             if (board[i][j] == 1)
                 return false;

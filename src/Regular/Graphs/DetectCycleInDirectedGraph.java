@@ -26,7 +26,7 @@ public class DetectCycleInDirectedGraph {
         // Let us say first vertex with value '1' is on border, it won't start a cycle. So need to check paths starting 
         // from all vertices to see which one of them can cause a cycle.
         for (int i = 1; i <= vertexCount; i++) {
-            if (!visited[i] && checkCycle(i)) {
+            if (!visited[i] && isCyclePresent(i)) {
                 System.out.println("Cycle Detected!!!");
                 return;
             }
@@ -35,14 +35,19 @@ public class DetectCycleInDirectedGraph {
     }
 
     // This uses DFS
-    private static boolean checkCycle(int i) {
+    private static boolean isCyclePresent(int i) {
         visited[i] = true;
         hasCycle[i] = true; // We are starting to check for hasCycle
         for (int neighbour : g.getAllOutgoingVertices(i)) {
-            // If not visited, then send that node for checkCycle. If it passes to have cycle, return true;
-            if (!visited[neighbour] && checkCycle(neighbour)) return true;
+            // If not visited, then send that node for isCyclePresent. If it passes to have cycle, return true;
+            if (!visited[neighbour] && isCyclePresent(neighbour)) {
+                return true;
+            }
             // If above check is skipped due to visited, we still have record of hasCycle and we shall check as below.
-            if (hasCycle[neighbour]) return true;
+            // It says a node with hasCycle true is encountered before giving clearance for this dfs traversal
+            if (hasCycle[neighbour]) {
+                return true;
+            }
         }
         hasCycle[i] = false; // This node is clear, doesn't cause any cycle due to its outgoing nodes;
         return false; // No cycle here

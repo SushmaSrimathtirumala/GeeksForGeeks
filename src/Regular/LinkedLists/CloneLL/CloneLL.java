@@ -42,7 +42,9 @@ public class CloneLL {
             head.next = head.next.next;
             head = head.next;
 
-            if (head == null) break;
+            if (head == null) {
+                break;
+            }
 
             cloneHead.next = cloneHead.next.next;
             cloneHead = cloneHead.next;
@@ -51,7 +53,7 @@ public class CloneLL {
 
     private static void assignRandomNodesToClones(SLLNode head) {
         while (head != null) {
-            // head.next points to current clone and head.random.next will point to clone of original head.random
+            // head.nextRight points to current clone and head.random.nextRight will point to clone of original head.random
             head.next.random = (head.random == null) ? null : head.random.next;
             head = head.next.next;
         }

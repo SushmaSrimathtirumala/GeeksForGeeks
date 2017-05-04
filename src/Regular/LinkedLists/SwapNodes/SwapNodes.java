@@ -37,7 +37,7 @@ public class SwapNodes {
         if (prevX != null) {
             prevX.next = curY;
         } else {
-            head = curY;
+            head = curY; // if prevX = null, then x is head, so now assign to y
         }
 
         if(prevY != null) {
@@ -46,6 +46,7 @@ public class SwapNodes {
             head = curX;
         }
 
+        // Swap next pointers
         SLLNode temp = curX.next;
         curX.next = curY.next;
         curY.next = temp;

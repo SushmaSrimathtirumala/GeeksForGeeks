@@ -42,7 +42,9 @@ public class TwiceMinGTMax {
                 }
             }
         }
-        if (maxSubArrayStart == -1) return len;
+        if (maxSubArrayStart == -1) {
+            return len;
+        }
         return len - (maxSubArrayEnd - maxSubArrayStart + 1);
     }
 

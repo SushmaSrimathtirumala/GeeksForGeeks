@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b11af2-6e80-4ade-a720-4eeb251561a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff" afterPath="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java" afterPath="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Regular/BackTracking/NQueen.java" afterPath="$PROJECT_DIR$/src/Regular/BackTracking/NQueen.java" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/Arrays/CountFrequencies/CountFrequencies" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/Arrays/CountFrequencies/CountFrequencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/Arrays/PairCountWithDiff/PairCountWithDiff" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/Arrays/PairCountWithDiff/PairCountWithDiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/DP/WaysToFillTiles/WaysToFillTiles" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeeksForGeeks/Practice/DP/WaysToFillTiles/WaysToFillTiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Regular/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Regular/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,38 +19,76 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinPlatforms.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/MinPlatforms/MinPlatforms.java">
+      <file leaf-file-name="SortWithFrequency.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubSetSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Regular/DP/SubSetSum/SubSetSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
+      <file leaf-file-name="SortWithFrequency.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PairCountWithDiff.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/PairCountWithDiff/PairCountWithDiff.java">
+      <file leaf-file-name="BSTFromPreOrder" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding />
+            <state>
+              <caret selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiagonalTreeTraversal" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="59" column="210" selection-start-line="59" selection-start-column="210" selection-end-line="59" selection-end-column="210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiagonalTreeTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DsAndUtils/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTFromPreOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -56,6 +98,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -69,13 +112,36 @@
       <find>outofplac</find>
       <find>s</find>
       <find>stk</find>
+      <find>k-pos+l-1</find>
+      <find>k-pos+ l-1</find>
+      <find>k-pos+ l -1</find>
+      <find>k-pos+ l - 1</find>
+      <find>k-pos + l - 1</find>
+      <find>k- pos + l - 1</find>
+      <find>k - pos + l - 1</find>
+      <find>k - pos</find>
+      <find>p</find>
+      <find>pos</find>
+      <find>stream</find>
+      <find>Node(\d)</find>
+      <find>inorder</find>
+      <find>Node</find>
+      <find>s1.</find>
+      <find>PalindromeSubStringLongest</find>
+      <find>NodeWithHeight</find>
     </findStrings>
     <replaceStrings>
       <replace>head.add</replace>
+      <replace>node$1</replace>
+      <replace>TreeNode</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/src/Regular/Trees</dir>
+      <dir>$PROJECT_DIR$/src/Practice/Arrays/ReverseString</dir>
+      <dir>$PROJECT_DIR$/src/Practice/LinkedLists/Sort0s1s2s</dir>
+      <dir>$PROJECT_DIR$/src/Practice/Arrays</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/Practice/DP/PalindromePrintLongest</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -93,64 +159,61 @@
         <entry key="$USER_HOME$/dev/Galactus-new" value="23580065724000" />
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/ReverseLL/ReverseLL2.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Lab/test.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Lab/StringRoll.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Lab/stringRepeation.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/SmallerGreater/SmallerGreater.txt" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/SmallerGreater/SmallerGreater.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/EvenOccurrence/EvenOccurrence" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/UniqueInSortedArray/UniqueInSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/LongestConsecutiveSubsequence/LongestConsecutiveSubsequence" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/Medianof2Arrays/Medianof2Arrays.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/Medianof2Arrays/MedianOf2Arrays.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/RelativeSort/RelativeSort.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/RotateArray/RotateArray.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/TwiceMinGTMax/TwiceMinGTMax" />
-        <option value="$PROJECT_DIR$/src/Regular/BackTracking/Sudoku.java" />
-        <option value="$PROJECT_DIR$/src/Regular/DP/CoinCombinationsForSum/CoinCombinationsForSum.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/TrainglesPossible/TrianglesPossible.java" />
-        <option value="$PROJECT_DIR$/src/Regular/DP/LongestCommonSubSequence/CommonSubSequence.java" />
-        <option value="$PROJECT_DIR$/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Trees/PrintAllPaths/PrintAllPaths.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java" />
-        <option value="$PROJECT_DIR$/src/Regular/DP/PalindromeLongestLength/PalindromeLongestLength" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/LCS1sReplacing0s/LCS1sReplacing0s.txt" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/LCS1sReplacing0s/LCS1sReplacing0s.java" />
-        <option value="$PROJECT_DIR$/src/Practice/KSwapsMaxNum/KSwapsMaxNum.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Backtracking/KSwapsMaxNum/KSwapsMaxNum.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Backtracking/KSwapsMaxNum/KSwapsMaxNum" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/TicTacToe/TicTacToe.java" />
-        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/FlattenLL/FlattenLL.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/MergeOverlaps/MergeOverlaps.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/MergeOverlaps/MergeOverlaps.md" />
-        <option value="$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/PeakFinder/PeakFinder.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/SubArrayWithSum/SubArrayWithSum.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/PrintAllPaths/PrintAllPaths" />
+        <option value="$PROJECT_DIR$/src/Regular/DP/StairCaseClimb/StairCaseClimb.md" />
+        <option value="$PROJECT_DIR$/src/Regular/DP/StairCaseClimb/StairCaseClimb.java" />
         <option value="$PROJECT_DIR$/src/Regular/DP/SubsetMinDiff/SubsetMinDiff.java" />
         <option value="$PROJECT_DIR$/src/Regular/DP/MinJumpsToEnd/MinJumpsToEnd.txt" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/SortIfSubStringReversed/SortIfSubStringReversed.md" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/SortIfSubStringReversed/SortIfSubStringReversed.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Arrays/MedianOf2Arrays/MedianOf2Arrays.java" />
-        <option value="$PROJECT_DIR$/src/Practice/SortAndSearch/SearchInSortedRotated/SearchInRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/Practice/SortAndSearch/SearchInSortedRotated/SearchInSortedRotated.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Graphs/DetectCycleInDirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/EvenOccurrence/EvenOccurrence.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/NonDivisibleSubset/NonDivisibleSubset.java" />
-        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/LRUCache/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/KthSmallest/KthSmallest.java" />
-        <option value="$PROJECT_DIR$/src/Regular/Arrays/ClosestIn3Lists/ClosestIn3Lists.java" />
-        <option value="$PROJECT_DIR$/src/Regular/BackTracking/RatMaze.java" />
-        <option value="$PROJECT_DIR$/src/Regular/BackTracking/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/Regular/DP/MinJumpsToEnd/MinJumpsToEnd.java" />
+        <option value="$PROJECT_DIR$/src/Practice/DP/PalindromeSubStringLongest/PalindromeSubStringLongest.java" />
+        <option value="$PROJECT_DIR$/src/Regular/DP/PalindromeSubSequenceLongest/PalindromeSubSequenceLongest" />
+        <option value="$PROJECT_DIR$/src/Regular/DP/PalindromeSubSequenceLongest/PalindromeSubSequenceLongest.java" />
+        <option value="$PROJECT_DIR$/src/Practice/DP/PalindromeMaker/PalindromeMaker.txt" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/SubArrayWithSum/SubArrayWithSum.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/TwiceMinGTMax/TwiceMinGTMax.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Arrays/TrainglesPossible/TrianglesPossible.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Arrays/TrainglesPossible/TrainglesPossible" />
         <option value="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff" />
         <option value="$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/LeadersInArray/LeadersInArray" />
+        <option value="$PROJECT_DIR$/src/Practice/StkAndQue/NextGreaterForAll/LeadersInArray/LeadersInArray.java" />
+        <option value="$PROJECT_DIR$/src/Practice/StkAndQue/LeadersInArray/LeadersInArray.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/ConnectAtSameLevelInCompleteTree/ConnectAtSameLevelCompleteTree/ConnectAtSameLevelInCompleteTree.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/RainWaterTrap/RainWaterTrap.md" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/RelativeSort/RelativeSort" />
+        <option value="$PROJECT_DIR$/src/Practice/SortAndSearch/SearchInSortedRotated/SearchInSortedRotated.md" />
+        <option value="$PROJECT_DIR$/src/Regular/Graphs/CountCycleLength.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Graphs/DetectCycleInDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/TreeDiameter/TreeDiameter" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/TreeDiameter/TreeDiameter.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/SwappedNodes/SwappedNodes.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/PrintCousins/PrintCousins.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Trees/BottomViewTree/BottomViewTree.java" />
+        <option value="$PROJECT_DIR$/src/Practice/LinkedLists/ReverseLLInGroups/ReverseLLInGroups.java" />
+        <option value="$PROJECT_DIR$/src/Practice/LinkedLists/ReverseLLInGroups/ReverseLLInGroups.md" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/ConnectAtSameLevelInCompleteTree/ConnectAtSameLevelCompleteTree/ConnectAtSameLevelInCompleteTree" />
+        <option value="$PROJECT_DIR$/src/Practice/DP/PalindromeSubSequenceLongest/PalindromeSubSequenceLongest.java" />
+        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/CloneLL/CloneLL.java" />
+        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/OddEvenRearrange/OddEvenRearrange.java" />
+        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/SwapNodes/SwapNodes.md" />
+        <option value="$PROJECT_DIR$/src/Regular/LinkedLists/SwapNodes/SwapNodes.java" />
+        <option value="$PROJECT_DIR$/src/Regular/BackTracking/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Trees/TreeDiameter/TreeDiameter.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Graphs/SnakesAndLadders/SnakesAndLadders.md" />
+        <option value="$PROJECT_DIR$/src/Practice/Graphs/TopologicalSort/TopologicalSort.md" />
+        <option value="$PROJECT_DIR$/src/Practice/Graphs/TopologicalSort/TopologicalSort.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/BiggestNumber/BiggestNumber.md" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/BiggestNumber/BiggestNumber.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.md" />
+        <option value="$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.java" />
+        <option value="$PROJECT_DIR$/src/Regular/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal" />
       </list>
     </option>
   </component>
@@ -159,6 +222,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
@@ -170,216 +236,83 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Regular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Regular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Regular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PairCountWithDiff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="DiagonalTreeTraversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Regular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeeksForGeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeeksForGeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Regular" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="topolo&#9;FILE&#9;file:///Users/gakshint/Dropbox/GitHub/GeeksForGeeks/src/Practice/Graphs/TopologicalSort/TopologicalSort.java&#10;activity&#9;PSI&#9;JAVA://Practice.Greedy.ActivitySelection.ActivitySelection&#10;word&#9;PSI&#9;JAVA://Regular.Recursion.WordBreak.WordBreak&#10;lru&#9;PSI&#9;JAVA://Regular.LinkedLists.LRUCache.LRUCache&#10;subarray&#9;FILE&#9;file:///Users/gakshint/Dropbox/GitHub/GeeksForGeeks/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java&#10;suba&#9;FILE&#9;file:///Users/gakshint/Dropbox/GitHub/GeeksForGeeks/src/Practice/Arrays/SubArrayWithSum/SubArrayWithSum.java&#10;medi&#9;PSI&#9;JAVA://Practice.Arrays.MedianOf2Arrays.MedianOf2Arrays&#10;kswa&#9;PSI&#9;JAVA://Practice.Backtracking.KSwapsMaxNum.KSwapsMaxNum&#10;swap&#9;PSI&#9;JAVA://Regular.SortAndSearch.SortTwoElementsSwapped.SortTwoElementsSwapped&#10;peak&#9;PSI&#9;JAVA://Practice.Arrays.PeakFinder.PeakFinder&#10;quicksort&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;train&#9;FILE&#9;file:///Users/gakshint/Documents/GitHub/GeeksForGeeks/src/Regular/Arrays/TrainglesPossible&#10;maxsum&#9;PSI&#9;JAVA://Regular.Arrays.SubArrayMaxSum.SubArrayMaxSum&#10;reverse&#9;FILE&#9;file:///Users/gakshint/Documents/GitHub/GeeksForGeeks/src/Practice/Arrays/ReverseWords/ReverseWords.java&#10;readarray&#9;PSI&#9;JAVA://Practice.Arrays.LowHighIndex.LowHighIndex#readArray&#10;arrange&#9;ACTION&#9;RearrangeCode&#10;platf&#9;FILE&#9;file:///Users/gakshint/Documents/GitHub/GeeksForGeeks/src/Practice/Arrays/MinPlatforms/MinPlatforms.java&#10;0s&#9;PSI&#9;JAVA://Practice.LinkedLists.Sort0s1s2s.Sort0s1s2s&#10;wordbrea&#9;PSI&#9;JAVA://Regular.BackTracking.WordBreakBT.WordBreakBT&#10;uti&#9;FILE&#9;file:///Users/gakshint/Documents/GitHub/GeeksForGeeks/src/DsAndUtils/Utils.java&#10;merge&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/LinkedLists/MergeSortLL/MergeSortLL.java&#10;uni&#9;FILE&#9;file:///Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/LongestUniqueCharSubString/LongestUniqueCharSubString.java&#10;quickso&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;pla&#9;PSI&#9;JAVA://Practice.Arrays.MinPlatforms.MinPlatforms&#10;*.md&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Arrays/RainWaterTrap/RainWaterTrap.md&#10;coin&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/CoinCombinationsForSum/CoinCombinationsForSum.java&#10;max&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java&#10;sna&#9;PSI&#9;JAVA://Practice.Graphs.SnakesAndLadders.SnakesAndLadders&#10;bito&#9;PSI&#9;JAVA://Practice.Arrays.BitonicSubArray.BitonicSubArray&#10;kth&#9;PSI&#9;JAVA://Regular.Arrays.KthSmallest.KthSmallest&#10;mer&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/LinkedLists/MergeSortLL/MergeSortLL.java&#10;ksw&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Backtracking/KSwapsMaxNum/KSwapsMaxNum.java&#10;ispre&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Trees/IsPreOrderBST/IsPreOrderBST.java&#10;verti&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Trees/VerticalSum/VerticalSum.java&#10;longest&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/LongestUniqueCharSubString/LongestUniqueCharSubString.java&#10;subset&#9;FILE&#9;file:///Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/SubSetSum/SubSetSum.java&#10;spir&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Trees/SpiralLeveOrderTraversal.java&#10;coinc&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/CoinCombinationsForSum/CoinCombinationsForSum.java&#10;subarr&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java&#10;wor&#9;PSI&#9;JAVA://Regular.DP.WordBreakDP.WordBreakDP&#10;wordb&#9;RUN_CONFIGURATION&#9;WordBreakDP&#10;jump&#9;PSI&#9;JAVA://Regular.DP.MinJumpsToEnd.MinJumpsToEnd&#10;ino&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Trees/TreeFromInorderAndPreOrder/TreeFromInorderAndPreOrder.java&#10;1s&#9;PSI&#9;JAVA://Regular.Arrays.LCS1sReplacing0s.LCS1sReplacing0s&#10;pali&#9;FILE&#9;file:///Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/PalindromeLongestLength/PalindromeLongestLength.java&#10;traing&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/TrainglesPossible/TrainglesPossible&#10;ma&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/BeforeSmallAfterGreat/BeforeSmallAfterGreat.java&#10;searso&#9;PSI&#9;JAVA://Practice.SortAndSearch.SearchInSortedRotated.SearchInSortedRotated&#10;ver&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Trees/VerticalSum/VerticalSum.java&#10;cycle&#9;PSI&#9;JAVA://Regular.Graphs.DetectCycleInDirectedGraph" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v7.5.0/bin/node" />
-    <property name="js.eslint.eslintPackage" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.5.0/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="pairs&#9;PSI&#9;JAVA://Regular.Arrays.PairWithSum.PairWithSum&#10;subset&#9;FILE&#9;file:///Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/SubSetSum/SubSetSum.java&#10;quick&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;rat&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/BackTracking/RatMaze.java&#10;sort&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/SortAndSearch/SearchInSortedRotated/SearchInSortedRotated.java&#10;height&#9;PSI&#9;JAVA://Regular.Trees.TreeDiameter.Height&#10;mindi&#9;PSI&#9;JAVA://Practice.Arrays.MinDiffBtPairs.MinDiffBtPairs&#10;peak&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/PeakFinder/PeakFinder.java&#10;coin&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/CoinCombinationsForSum/CoinCombinationsForSum.java&#10;subse&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java&#10;great&#9;PSI&#9;JAVA://Practice.Arrays.NextGreaterNumWithDigits.NextGreaterNumWithDigits&#10;pal&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/PalindromeLongestLength/PalindromeLongestLength.java&#10;longe&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java&#10;quic&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;rota&#9;PSI&#9;JAVA://Practice.SortAndSearch.SearchInRotatedArray.SearchInRotatedArray&#10;uniq&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/LongestUniqueCharSubString/LongestUniqueCharSubString.java&#10;median&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Arrays/MedianOf2Arrays/MedianOf2Arrays.java&#10;majori&#9;PSI&#9;JAVA://Practice.Arrays.MajorityElement.MajorityElement&#10;lru&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/LinkedLists/LRUCache/LRUCache.java&#10;merge&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/LinkedLists/MergeSortLL/MergeSortLL.java&#10;0s&#9;PSI&#9;JAVA://Regular.Arrays.LCS1sReplacing0s.LCS1sReplacing0s&#10;min&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/MinJumpsToEnd/MinJumpsToEnd.java&#10;bit&#9;PSI&#9;JAVA://Practice.Arrays.BitonicSubArray.BitonicSubArray&#10;tic&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Arrays/TicTacToe/TicTacToe.java&#10;quickso&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;nuts&#9;PSI&#9;JAVA://Practice.Arrays.NutsBolts.NutsBolts&#10;Longe&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java&#10;is&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Trees/IsPreOrderBST/IsPreOrderBST.java&#10;reverse&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/LinkedLists/ReverseLL/ReverseLL.java&#10;nex&#9;PSI&#9;JAVA://Practice.Arrays.NextGreaterNumWithDigits.NextGreaterNumWithDigits&#10;swaps&#9;PSI&#9;JAVA://Regular.BackTracking.KSwapsMaxNum.KSwapsMaxNum&#10;subsequence&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java&#10;ispre&#9;PSI&#9;JAVA://Practice.Trees.IsPreOrderBST.IsPreOrderBST&#10;swa&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/SortAndSearch/SortTwoElementsSwapped/SortTwoElementsSwapped.java&#10;swapp&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Trees/SwappedNodes/SwappedNodes.java&#10;rever&#9;PSI&#9;JAVA://Regular.LinkedLists.ReverseLL.ReverseLL&#10;swap&#9;PSI&#9;JAVA://Regular.SortAndSearch.SortTwoElementsSwapped.SortTwoElementsSwapped&#10;quicksor&#9;PSI&#9;JAVA://DsAndUtils.Utils#quickSort&#10;longestsubs&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/Arrays/LongestUniqueCharSubString/LongestUniqueCharSubString.java&#10;spira&#9;PSI&#9;JAVA://Regular.Trees.SpiralLeveOrderTraversal&#10;sudo&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/BackTracking/Sudoku.java&#10;maxsum&#9;PSI&#9;JAVA://Regular.Arrays.SubArrayMaxSum.SubArrayMaxSum&#10;subarra&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Practice/Arrays/SubArrayWithSum/SubArrayWithSum.java&#10;sub&#9;FILE&#9;file:///Volumes/Macintosh HD/Users/gakshint/Documents/GitHubProjects/GeeksForGeeks/src/Regular/DP/SubSetSum/SubSetSum.java&#10;common&#9;PSI&#9;JAVA://Regular.DP.CommonSubSequence.CommonSubSequence&#10;zero&#9;PSI&#9;JAVA://Practice.Arrays.TripletSumZero.TripletSumZero&#10;uni&#9;PSI&#9;JAVA://Regular.Arrays.LongestUniqueCharSubString.LongestUniqueCharSubString&#10;TP&#9;PSI&#9;JAVA://Regular.Arrays.TrainglesPossible.TrianglesPossible&#10;combin&#9;PSI&#9;JAVA://Regular.DP.CoinCombinationsForSum.CoinCombinationsForSum&#10;diagon&#9;PSI&#9;JAVA://Regular.Trees.DiagonalTreeTraversal.DiagonalTreeTraversal" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -387,8 +320,17 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DsAndUtils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/src/Regular/DP/LongestCommonSubString" />
+      <recent name="$PROJECT_DIR$/src/Regular/Trees/ConnectAtSameLevelInCompleteTree" />
+      <recent name="$PROJECT_DIR$/src/Regular/Arrays/KthSmallest" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -396,7 +338,11 @@
       <recent name="Practice.Arrays.PairCountWithDiff" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Practice/Graphs/SnakesAndLadders" />
+      <recent name="$PROJECT_DIR$/src/Practice/Trees/ConnectAtSameLevelInCompleteTree" />
+      <recent name="$PROJECT_DIR$/src/Practice/Greedy/ActivitySelection" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/src/Practice/LinkedLists/ReverseLLInGroups" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,113 +357,140 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeOverlaps">
-    <configuration default="false" name="stringRepeation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="Application.DiagonalTreeTraversal">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="BiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Arrays.BiggestNumber.BiggestNumber" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regular.Lab.*" />
+          <option name="PATTERN" value="Practice.Arrays.BiggestNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Regular.Lab.stringRepeation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GeeksForGeeks" />
-      <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="LCS1sReplacing0s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="DiagonalTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Trees.DiagonalTreeTraversal.DiagonalTreeTraversal" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regular.Arrays.LCS1sReplacing0s.*" />
+          <option name="PATTERN" value="Practice.Trees.DiagonalTreeTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Regular.Arrays.LCS1sReplacing0s.LCS1sReplacing0s" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GeeksForGeeks" />
-      <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="KSwapsMaxNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="ReverseLLInGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.LinkedLists.ReverseLLInGroups.ReverseLLInGroups" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Backtracking.KSwapsMaxNum.*" />
+          <option name="PATTERN" value="Practice.LinkedLists.ReverseLLInGroups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Practice.Backtracking.KSwapsMaxNum.KSwapsMaxNum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GeeksForGeeks" />
-      <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="PassByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="SortWithFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Arrays.SortWithFrequency.SortWithFrequency" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regular.Lab.*" />
+          <option name="PATTERN" value="Practice.Arrays.SortWithFrequency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Regular.Lab.PassByRef" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GeeksForGeeks" />
-      <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="MergeOverlaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Graphs.TopologicalSort.TopologicalSort" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Arrays.MergeOverlaps.*" />
+          <option name="PATTERN" value="Practice.Graphs.TopologicalSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Practice.Arrays.MergeOverlaps.MergeOverlaps" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GeeksForGeeks" />
-      <envs />
-      <method />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -574,29 +547,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -621,39 +571,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -743,36 +660,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -841,7 +728,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -883,42 +769,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
@@ -950,30 +805,30 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.stringRepeation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LCS1sReplacing0s" />
-      <item index="2" class="java.lang.String" itemvalue="Application.KSwapsMaxNum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PassByRef" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MergeOverlaps" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ReverseLLInGroups" />
+      <item itemvalue="Application.TopologicalSort" />
+      <item itemvalue="Application.BiggestNumber" />
+      <item itemvalue="Application.SortWithFrequency" />
+      <item itemvalue="Application.DiagonalTreeTraversal" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MergeOverlaps" />
-        <item index="1" class="java.lang.String" itemvalue="Application.KSwapsMaxNum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PassByRef" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LCS1sReplacing0s" />
-        <item index="4" class="java.lang.String" itemvalue="Application.stringRepeation" />
+      <list>
+        <item itemvalue="Application.DiagonalTreeTraversal" />
+        <item itemvalue="Application.SortWithFrequency" />
+        <item itemvalue="Application.BiggestNumber" />
+        <item itemvalue="Application.TopologicalSort" />
+        <item itemvalue="Application.ReverseLLInGroups" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1076,7 +931,88 @@
       <workItem from="1493638755556" duration="2690000" />
       <workItem from="1493732320252" duration="1356000" />
       <workItem from="1493811007065" duration="448000" />
-      <workItem from="1493825708747" duration="310000" />
+      <workItem from="1493825708747" duration="4584000" />
+      <workItem from="1493913603191" duration="957000" />
+      <workItem from="1493956679807" duration="305000" />
+      <workItem from="1494056028911" duration="555000" />
+      <workItem from="1494386158269" duration="9597000" />
+      <workItem from="1494602619196" duration="3936000" />
+      <workItem from="1494609191629" duration="2191000" />
+      <workItem from="1494657676865" duration="247000" />
+      <workItem from="1494815410016" duration="368000" />
+      <workItem from="1494860019788" duration="665000" />
+      <workItem from="1494903063063" duration="68000" />
+      <workItem from="1494906340283" duration="374000" />
+      <workItem from="1494990221724" duration="191000" />
+      <workItem from="1495074159734" duration="641000" />
+      <workItem from="1495075873593" duration="484000" />
+      <workItem from="1495169893301" duration="1248000" />
+      <workItem from="1495176063095" duration="3000" />
+      <workItem from="1495246389809" duration="2006000" />
+      <workItem from="1495348551182" duration="1658000" />
+      <workItem from="1495504491954" duration="2043000" />
+      <workItem from="1495544810921" duration="951000" />
+      <workItem from="1495559623582" duration="300000" />
+      <workItem from="1495594877807" duration="637000" />
+      <workItem from="1495603609130" duration="3683000" />
+      <workItem from="1495643576513" duration="4998000" />
+      <workItem from="1495706615629" duration="3764000" />
+      <workItem from="1495723497698" duration="672000" />
+      <workItem from="1495858429095" duration="4702000" />
+      <workItem from="1496065431646" duration="244000" />
+      <workItem from="1496366496742" duration="1358000" />
+      <workItem from="1496385493963" duration="2035000" />
+      <workItem from="1496461355568" duration="9696000" />
+      <workItem from="1502774646398" duration="4681000" />
+      <workItem from="1503144758042" duration="104000" />
+      <workItem from="1503148535224" duration="408000" />
+      <workItem from="1503668778058" duration="406000" />
+      <workItem from="1503740994774" duration="3570000" />
+      <workItem from="1504622534056" duration="899000" />
+      <workItem from="1504708912797" duration="252000" />
+      <workItem from="1505317788760" duration="5247000" />
+      <workItem from="1505365061146" duration="121000" />
+      <workItem from="1505390927549" duration="1042000" />
+      <workItem from="1505997158674" duration="613000" />
+      <workItem from="1506023872578" duration="15000" />
+      <workItem from="1506845692227" duration="31000" />
+      <workItem from="1506917368570" duration="589000" />
+      <workItem from="1522248920400" duration="756000" />
+      <workItem from="1522335755806" duration="348000" />
+      <workItem from="1522472500431" duration="1235000" />
+      <workItem from="1522479988826" duration="529000" />
+      <workItem from="1522683269541" duration="2369000" />
+      <workItem from="1522730620120" duration="8000" />
+      <workItem from="1522764811992" duration="627000" />
+      <workItem from="1522853806244" duration="4042000" />
+      <workItem from="1522938017315" duration="4218000" />
+      <workItem from="1523024514865" duration="1510000" />
+      <workItem from="1523076386346" duration="12315000" />
+      <workItem from="1523165924857" duration="566000" />
+      <workItem from="1523167015751" duration="7835000" />
+      <workItem from="1523362364053" duration="7417000" />
+      <workItem from="1523446190941" duration="434000" />
+      <workItem from="1523457889312" duration="4631000" />
+      <workItem from="1523546977785" duration="3079000" />
+      <workItem from="1523622159097" duration="2134000" />
+      <workItem from="1523676981555" duration="1074000" />
+      <workItem from="1523686556769" duration="614000" />
+      <workItem from="1523694505952" duration="4476000" />
+      <workItem from="1523807229187" duration="4890000" />
+      <workItem from="1523931086183" duration="169000" />
+      <workItem from="1523944542731" duration="5774000" />
+      <workItem from="1523965347507" duration="17326000" />
+      <workItem from="1524043933332" duration="9237000" />
+      <workItem from="1524060538370" duration="11471000" />
+      <workItem from="1524585141292" duration="508000" />
+      <workItem from="1524624557830" duration="593000" />
+      <workItem from="1524659851284" duration="2819000" />
+      <workItem from="1524742499339" duration="117000" />
+      <workItem from="1524743348217" duration="1186000" />
+      <workItem from="1525187771564" duration="2615000" />
+      <workItem from="1525271032628" duration="2958000" />
+      <workItem from="1525346378346" duration="1051000" />
+      <workItem from="1525353205163" duration="840000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1487783678673</created>
@@ -1225,56 +1161,209 @@
       <option name="project" value="LOCAL" />
       <updated>1493532382216</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit">
+      <created>1493827160312</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1493827160312</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commit">
+      <created>1493913883904</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1493913883904</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit">
+      <created>1495250899293</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1495250899293</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit">
+      <created>1495645139904</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1495645139904</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commit">
+      <created>1495682529265</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1495682529265</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commit">
+      <created>1496490214398</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1496490214398</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit">
+      <created>1502801864815</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1502801864816</updated>
+    </task>
+    <task id="LOCAL-00029" summary="commit">
+      <created>1505365078819</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1505365078820</updated>
+    </task>
+    <task id="LOCAL-00030" summary="commit">
+      <created>1522686803896</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1522686803896</updated>
+    </task>
+    <task id="LOCAL-00031" summary="commit">
+      <created>1522686890413</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1522686890413</updated>
+    </task>
+    <task id="LOCAL-00032" summary="commit">
+      <created>1523187854123</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1523187854123</updated>
+    </task>
+    <task id="LOCAL-00033" summary="commit">
+      <created>1523373524289</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1523373524290</updated>
+    </task>
+    <task id="LOCAL-00034" summary="commit">
+      <created>1523377425494</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1523377425494</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit">
+      <created>1523961970473</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1523961970473</updated>
+    </task>
+    <task id="LOCAL-00036" summary="commit">
+      <created>1523962104912</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1523962104912</updated>
+    </task>
+    <task id="LOCAL-00037" summary="commit">
+      <created>1524029372604</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1524029372604</updated>
+    </task>
+    <task id="LOCAL-00038" summary="commit">
+      <created>1524104751434</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1524104751434</updated>
+    </task>
+    <task id="LOCAL-00039" summary="commit">
+      <created>1524112822226</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1524112822226</updated>
+    </task>
+    <task id="LOCAL-00040" summary="commit">
+      <created>1525319115761</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1525319115761</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UtilsTest_quickSortTest - 2018.04.02 at 21h 16m 00s.xml">
+      <configuration name="UtilsTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_quickSortTest - 2018.04.02 at 21h 19m 45s.xml">
+      <configuration name="UtilsTest.quickSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest - 2018.04.02 at 21h 23m 29s.xml">
+      <configuration name="UtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_binarySearchTest - 2018.04.10 at 21h 12m 45s.xml">
+      <configuration name="UtilsTest.binarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_binarySearchTest - 2018.04.10 at 21h 12m 58s.xml">
+      <configuration name="UtilsTest.binarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_binarySearchTest - 2018.04.10 at 21h 13m 30s.xml">
+      <configuration name="UtilsTest.binarySearchTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278660000" />
+    <option name="totallyTimeSpent" value="483260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32554746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19416058" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18233387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4481752" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34014598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32896653" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.5008104" side_tool="true" weight="0.27058825" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="9" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3764706" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49918962" visible="true" weight="0.27058825" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27794117" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49918962" weight="0.32794118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23176661" />
+      <window_info id="JRebel" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.4481752" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
+      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32794118" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Dynamic Properties" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -1322,378 +1411,305 @@
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Regular/Arrays/KthSmallest/KthSmallest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Regular/Arrays/KthSmallest/code.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Backtracking/Sudoku/Sudoku.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Arrays/Sort0s1s2s/Sort0s1s2s.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Greedy/JobSchedulingForMaxProfit/JobSchedulingForMaxProfit.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Trees/CountInRangeBST/CountInRangeBST.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Trees/CountInRangeBST/CountInRangeBST.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="54" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/LongestCommonSubSequence/LongestCommonSubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/MaxProductSubArray/MaxProductSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/CoinCombinationsForSum/CoinCombinationsForSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Graphs/DFSWithoutRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Graphs/HamiltonianCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/DP/PalindromeMaker/PalindromeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/DP/PalindromePrintLongest/PalindromePrintLongest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Graphs/DetectCycleInDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/IsPreOrderBST/IsPreOrderBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/MinCostToConnectRopes/MinCostToConnectRopes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/MinCostToConnectRopes/MinCostToConnectRopes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/DP/WaysToFillTiles/WaysToFillTiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/ZigZagSubsequence/ZigZagSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/MinCostPath/MinCostPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/LCS1sReplacing0s/LCS1sReplacing0s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/EvenOccurrence/EvenOccurrence">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/EvenOccurrence/EvenOccurrence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/SortIfSubStringReversed/SortIfSubStringReversed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/PeakFinder/PeakFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/NonDivisibleSubset/NonDivisibleSubset.md">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/NonDivisibleSubset/NonDivisibleSubset.java">
+    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state>
+          <caret selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/SubSetSum/SubSetSum">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
+          <caret selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/KthSmallest/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/MinDiffBtPairs/MinDiffBtPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/TreeDiameter/TreeDiameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/SortAndSearch/SearchInSortedRotated/SearchInSortedRotated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/ClosestIn3Lists/ClosestIn3Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Backtracking/KSwapsMaxNum/KSwapsMaxNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/BackTracking/RatMaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/LinkedLists/OddEvenRearrange/OddEvenRearrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/BackTracking/NQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="44" column="72" lean-forward="true" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/LinkedLists/LRUCache/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DsAndUtils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/DP/CoinGame/CoinGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/LinkedLists/FlattenLL/FlattenLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/LinkedLists/MergeSortLL/MergeSortLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="64" column="32" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/PrintCousins/PrintCousins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/SquareRoot/SquareRoot.java">
+    <entry file="file://$PROJECT_DIR$/src/DsAndUtils/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff.java">
+    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="480">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/LongestUniqueCharSubString/LongestUniqueCharSubString.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxAbsSumDiff/SubArrayMaxAbsSumDiff">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/SubArrayMaxSum/SubArrayMaxSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="87" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/BiggestNumber/BiggestNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/BiggestNumber/BiggestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="157">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SubArrayWithSum/SubArrayWithSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="375">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/RotateArray/RotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/SortWithFrequency/SortWithFrequency.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="480">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/NonRepeatingNumber/NonRepeatingNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/Regular/Trees/BSTFromPreOrder/BSTFromPreOrder">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state>
+          <caret selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/LinkedLists/ReverseLL/ReverseLL.java">
+    <entry file="file://$PROJECT_DIR$/src/DsAndUtils/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/NextGreaterNumWithDigits/NextGreaterNumWithDigits.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/MinPlatforms/MinPlatforms.java">
+    <entry file="file://$PROJECT_DIR$/src/Practice/Trees/DiagonalTreeTraversal/DiagonalTreeTraversal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="59" column="210" selection-start-line="59" selection-start-column="210" selection-end-line="59" selection-end-column="210" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/Arrays/PairWithSum/PairWithSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regular/DP/SubSetSum/SubSetSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Arrays/PairCountWithDiff/PairCountWithDiff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GeeksForGeeks</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

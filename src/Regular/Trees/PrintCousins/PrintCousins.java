@@ -41,13 +41,13 @@ public class PrintCousins {
         if (level == 1) {
             if (root.left.val == val || root.right.val == val) {
                 // This means We just tapped into the root that contains our value as one of the children,
-                // skip this and print all others
+                // skip the sibling and print all others
                 return;
             }
             if (root.left != null) System.out.print(root.left.val + " ");
             if (root.right != null) System.out.print(root.right.val + " ");
         }
-        if(level > 1) {
+        if (level > 1) {
             printCousins(root.left, val, level - 1);
             printCousins(root.right, val, level - 1);
         }

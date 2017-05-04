@@ -20,8 +20,8 @@ public class AlternatePositiveNegative {
                 if ((arr[i] >= 0 && arr[outOfPlace] < 0) || (arr[i] < 0 && arr[outOfPlace] >= 0)) {
                     rightShiftAndInsert(arr, i, outOfPlace);
                     // If the diff is > 2, which means no suitable element is found in between. i.e., all of them have 
-                    // same sign as current outOfPlace. So next element of current outOfPlace also has the same sign, 
-                    // which makes it eligible next outOfPlace
+                    // same sign as current outOfPlace. So nextRight element of current outOfPlace also has the same sign,
+                    // which makes it eligible nextRight outOfPlace
                     if (i - outOfPlace > 2) {
                         // In this case, Index is already moved far ahead of outOfPlace so no need to increment index
                         outOfPlace += 2;

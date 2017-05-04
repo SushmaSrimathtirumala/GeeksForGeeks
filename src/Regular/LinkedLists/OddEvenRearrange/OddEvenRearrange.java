@@ -25,7 +25,7 @@ public class OddEvenRearrange {
 
         SLLNode evenFirst = even; // Store it to link even and odd at the end
         while (true) {
-            // Check even.next before setting to odd
+            // Check even.nextRight before setting to odd
             // If list ended, link both even and odd lists
             if (even == null || even.next == null) {
                 odd.next = evenFirst;
@@ -36,8 +36,8 @@ public class OddEvenRearrange {
             // This kind of makes 2 jumps
             odd = odd.next;
 
-            // Check odd.next before setting to even
-            if (odd.next == null) {
+            // Check odd.nextRight before setting to even
+            if (odd.next == null) { // No need to check odd == null, coz now odd = even.next and it is already verified above.
                 odd.next = evenFirst; // Link odd and even lists
                 even.next = null;
                 break;

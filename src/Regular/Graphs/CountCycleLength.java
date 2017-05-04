@@ -60,7 +60,9 @@ public class CountCycleLength {
                 return result;
             }
             // If above check is skipped due to visited, we still have record of hasCycle and we shall check as below.
-            if (hasCycle[neighbour]) return new CycleNode(neighbour, 1, true);
+            if (hasCycle[neighbour]) {
+                return new CycleNode(neighbour, 1, true);
+            }
         }
         hasCycle[i] = false; // This node is clear, doesn't cause any cycle due to its outgoing nodes;
         return new CycleNode(-1, 0, false); // No cycle here

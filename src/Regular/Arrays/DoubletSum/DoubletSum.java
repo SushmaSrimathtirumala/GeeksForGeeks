@@ -9,10 +9,10 @@ public class DoubletSum {
     public static void main(String[] args) {
         int A[] = {1, 4, 45, 6, 10, 8};
         int n = 16;
-        printpairs(A, n);
+        printPairs(A, n);
     }
 
-    private static void printpairs(int[] a, int sum) {
+    private static void printPairs(int[] a, int sum) {
         Arrays.sort(a);
         int len = a.length;
         int l = 0, r = len - 1;

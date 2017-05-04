@@ -3,7 +3,7 @@ http://www.practice.geeksforgeeks.org/problem-page.php?pid=1572
 Given a snake and ladder board of order 5x6 , find the minimum number of dice throws required to reach the destination or last cell (30th cell) from source (1st cell) . 
 
 Example
-![Graph](../../images/snakesladders.png)
+![Snakes & Ladders](../../../../images/snakesladders.jpg)
 
 
 ​For the above board output will be 3 

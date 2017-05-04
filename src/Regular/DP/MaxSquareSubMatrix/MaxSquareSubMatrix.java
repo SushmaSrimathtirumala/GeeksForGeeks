@@ -28,9 +28,11 @@ public class MaxSquareSubMatrix {
             for (int j = 1; j < col; j++) {
                 if (m[i][j] == 1) {
                     // If any of these 3 places are zero it can't make a matrix, so result dim is only 1. Min is 
-                    // taken for a same reason. Also it can make a matrix till it's visibility
+                    // taken for a same reason. Also it can make a matrix till its visibility
                     table[i][j] = Math.min(table[i - 1][j - 1], Math.min(table[i - 1][j], table[i][j - 1])) + 1;
-                } else table[i][j] = 0;
+                } else {
+                    table[i][j] = 0;
+                }
             }
         }
         return findMaxInMatrix(table, row, col);

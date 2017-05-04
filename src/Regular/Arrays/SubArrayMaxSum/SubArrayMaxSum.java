@@ -13,28 +13,10 @@ public class SubArrayMaxSum {
         int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         final List<Integer> arrList = new ArrayList<>();
         IntStream.of(arr).forEach(e -> arrList.add(e));
-        System.out.println(findMaximumSubarrayContiguous(arrList).maxSum + " " + findMaximumSubarrayNonContiguous
+        System.out.println(findMaximumSubArrayContiguous(arrList).maxSum + " " + findMaximumSubArrayNonContiguous
                 (arrList));
 
     }
-
-    /*public static Subarray findMaximumSubarray2(List<Integer> A) {
-        Subarray range = new Subarray(0, 0, 0);
-        int startIndex = 0, sum = 0; 
-        int maxSum = 0, minSum = 0;
-        for (int i = 0; i < A.size(); ++i) {
-            sum += A.get(i);
-            if (sum < minSum) {
-                minSum = sum;
-                startIndex = i + 1;
-            }
-            if (sum - minSum > maxSum) { // Nullifying the Negative portion of sum by adding it back to sum
-                maxSum = sum - minSum;
-                range = new Subarray(startIndex + 1, i + 1, maxSum);
-            }
-        }
-        return range;
-    }*/
 
     /**
      * Kadane Algorithm.
@@ -42,34 +24,36 @@ public class SubArrayMaxSum {
      * @param arr
      * @return
      */
-    private static Subarray findMaximumSubarrayContiguous(List<Integer> arr) {
+    private static Subarray findMaximumSubArrayContiguous(List<Integer> arr) {
         Subarray subarray = new Subarray(0, 0, 0);
-        int sum = 0, startIndex = 0, maxSum = 0;
+        int curSum = 0, startIndex = 0, maxSum = 0;
         for (int i = 0; i < arr.size(); i++) {
-            sum += arr.get(i);
-            if (sum < 0) { // Nullifying the Negative portion of sum by making it 0, and starting a fresh subarray
-                sum = 0;
+            curSum += arr.get(i);
+            if (curSum < 0) { // Nullifying the Negative portion of curSum by making it 0, and starting a fresh subarray
+                curSum = 0;
                 startIndex = i + 1;
-            } else if (sum > maxSum) {
-                maxSum = sum;
+            } else if (curSum > maxSum) {
+                maxSum = curSum;
                 subarray = new Subarray(startIndex + 1, i + 1, maxSum);
             }
         }
-        if (maxSum == 0) subarray.maxSum = getMaxInArray(arr);
+        if (maxSum == 0) {
+            subarray.maxSum = getMaxInArray(arr);
+        }
         return subarray;
     }
 
     private static int findMaximumSubarrayContiguous2(List<Integer> arr) {
         int curSum = arr.get(0);
         int maxSoFar = arr.get(0);
-        for(int i=1;i<arr.size(); i++) {
-            curSum = Math.max(curSum, curSum+arr.get(i));
+        for (int i = 1; i < arr.size(); i++) {
+            curSum = Math.max(curSum, curSum + arr.get(i));
             maxSoFar = Math.max(maxSoFar, curSum);
         }
         return maxSoFar;
     }
 
-    private static int findMaximumSubarrayNonContiguous(List<Integer> arr) {
+    private static int findMaximumSubArrayNonContiguous(List<Integer> arr) {
         int sum = arr.stream().filter(e -> e > 0).mapToInt(e -> e).sum();
         return (sum != 0) ? sum : arr.stream().mapToInt(e -> e).max().getAsInt();
     }

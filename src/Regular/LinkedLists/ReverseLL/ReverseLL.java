@@ -23,17 +23,17 @@ public class ReverseLL {
         printSLL(l4);
     }
 
-    private static void reverseLinkedList(SLLNode head) {
-        SLLNode prev = null, cur, next = head;
+    public static SLLNode reverseLinkedList(SLLNode head) {
+        SLLNode prev = null, cur = head, next = head;
 
         while (next != null) {
-            // next will be leading and cur and prev shall be reversing pointers
+            // nextRight will be leading and cur and prev shall be reversing pointers
             cur = next;
             next = next.next;
 
             cur.next = prev;
             prev = cur;
         }
-
+        return cur;
     }
 }

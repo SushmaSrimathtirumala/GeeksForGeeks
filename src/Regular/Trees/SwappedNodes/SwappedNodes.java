@@ -40,7 +40,9 @@ public class SwappedNodes {
     }
 
     private static TreeNode[] correctSwappedNodes(TreeNode root, TreeNode parent, TreeNode[] refs) {
-        if (root == null) return refs;
+        if (root == null) {
+            return refs;
+        }
         
         // Inorder traversal
         correctSwappedNodes(root.left, parent, refs); // Parent node of left most node in left tree will be null

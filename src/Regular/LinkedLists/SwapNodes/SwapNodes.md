@@ -1,6 +1,7 @@
 http://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/
 
-Given a linked list and two keys in it, swap nodes for two given keys. Nodes should be swapped by changing links. Swapping data of nodes may be expensive in many situations when data contains many fields.
+Given a linked list and two keys in it, swap nodes for two given keys. Nodes should be swapped by changing links. 
+Swapping data of nodes may be expensive in many situations when data contains many fields.
 
 It may be assumed that all keys in linked list are distinct.
 

@@ -19,7 +19,7 @@ public class TreeFromInorderAndPreOrder {
         // max-min, we have left-right and they are determined using Inorder.
         // This base check can also be replaced by if(left < right), and place optimization outside of it
         if (index.index < pre.length) {
-            // Simple optimization to avoid recursive call leaf nodes. Since recursion ends here, no need to check 
+            // Simple optimization to avoid recursive call for leaf nodes. Since recursion ends here, no need to check
             // for left-right range below
             if (left == right) {
                 return new TreeNode(pre[index.index++]);

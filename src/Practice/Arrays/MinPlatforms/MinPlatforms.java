@@ -35,12 +35,12 @@ public class MinPlatforms {
                 maxArrivals = Math.max(arrivals, maxArrivals);
             } else {
                 j++;
-                arrivals--; // Can go negative for departure times for next day which are less than arrival times. 
+                arrivals--; // Can go negative for departure times for nextRight day which are less than arrival times.
                 // It's ok, they get neutralized as we encounter arrival times.
             }
         }
         // No need of this code, cause here the departure time lesser than arrival time is depicted by train leaving 
-        // next day. So we encounter their departures earlier than their arrival in the sorted array.
+        // nextRight day. So we encounter their departures earlier than their arrival in the sorted array.
         /*if (j == len) {
             maxArrivals += (len - 1 - i);
         }*/

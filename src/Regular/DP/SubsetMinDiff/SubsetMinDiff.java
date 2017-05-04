@@ -36,7 +36,7 @@ public class SubsetMinDiff {
 
         for (int i = sum / 2; i <= sum; i++) {
             if (table[i][len]) {
-                return sum - 2 * i;
+                return sum - 2 * i; // (sum - i) - i
             }
         }
         return -1;

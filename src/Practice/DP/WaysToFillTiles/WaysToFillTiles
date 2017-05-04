@@ -1,8 +1,8 @@
-http://www.geeksforgeeks.org/count-number-of-ways-to-fill-a-n-x-4-grid-using-1-x-4-tiles/
+http://www.geeksforgeeks.org/freq-number-of-ways-to-fill-a-n-x-4-grid-using-1-x-4-tiles/
 http://www.practice.geeksforgeeks.org/problem-page.php?pid=521
 
 Count number of ways to fill a “n x 4″ grid using “1 x 4″ tiles
-Given a number n, count number of ways to fill a n x 4 grid using 1 x 4 tiles.
+Given a number n, freq number of ways to fill a n x 4 grid using 1 x 4 tiles.
 
 Examples:
 

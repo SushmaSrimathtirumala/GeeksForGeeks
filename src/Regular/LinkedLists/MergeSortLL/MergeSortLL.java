@@ -27,23 +27,20 @@ public class MergeSortLL {
             return head;
         }
         // Split the LL into two list to the middle
-        SLLNode[] nodes = frontBackSplit(head);
+        SLLNode middle = frontBackSplit(head);
 
-        // Split each list further by recursion, in return u receive merged lists
-        nodes[0] = mergeSortLL(nodes[0]);
-        nodes[1] = mergeSortLL(nodes[1]);
+        // Split each list further by recursion, in return we receive merged lists
+        head = mergeSortLL(head);
+        middle = mergeSortLL(middle);
 
         // Merge the merged lists further
-        return sortAndMerge(nodes[0], nodes[1]);
+        return sortAndMerge(head, middle);
     }
 
-    private static SLLNode[] frontBackSplit(SLLNode source) {
-        SLLNode[] nodes = new SLLNode[2];
+    private static SLLNode frontBackSplit(SLLNode source) {
         // if the length is just 1
         if (source == null || source.next == null) {
-            nodes[0] = source;
-            nodes[1] = null;
-            return nodes;
+            return null;
         }
         // To find middle node to split
         SLLNode fast, slow;
@@ -56,10 +53,9 @@ public class MergeSortLL {
                 slow = slow.next;
             }
         }
-        nodes[0] = source;
-        nodes[1] = slow.next;
+        SLLNode node = slow.next;
         slow.next = null; // Split
-        return nodes;
+        return node;
     }
 
     private static SLLNode sortAndMerge(SLLNode a, SLLNode b) {

@@ -35,7 +35,7 @@ public class NextGreaterNumWithDigits {
                 break;
             }
         }
-        // Find number that is next rightmost greater than arr[i] and less than arr[i+1]
+        // Find number that is nextRight rightmost greater than arr[i] and less than arr[i+1]
         int nextGreaterNumPos = findNextGreaterNumPos(arr, i, i + 1);
         swap(arr, i, nextGreaterNumPos);
         Arrays.sort(arr, i + 1, len);

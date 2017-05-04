@@ -30,7 +30,7 @@ public class HamiltonianCycle {
         // Start Vertex is 0
         int[] path = {0, -1, -1, -1, -1};
 
-        // Checking for next pos 1
+        // Checking for nextRight pos 1
         if (hasHamCycle(graph, path, 1)) {
             System.out.println(Arrays.toString(path));
         } else {

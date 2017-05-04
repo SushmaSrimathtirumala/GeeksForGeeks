@@ -23,6 +23,7 @@ public class LongestCommonSubSequence {
                 if (i == 0 || j == 0) {
                     table[i][j] = 0;
                 } else {
+                    // if char matches
                     if (a.charAt(i - 1) == b.charAt(j - 1)) {
                         table[i][j] = table[i - 1][j - 1] + 1;
                     } else {
